@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0BAC3E328D7C22800EF9B13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC3E228D7C22800EF9B13 /* AppDelegate.swift */; };
+		E0BAC3E528D7C22800EF9B13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC3E428D7C22800EF9B13 /* SceneDelegate.swift */; };
+		E0BAC3E728D7C22800EF9B13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC3E628D7C22800EF9B13 /* ViewController.swift */; };
+		E0BAC3EA28D7C22800EF9B13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0BAC3E828D7C22800EF9B13 /* Main.storyboard */; };
+		E0BAC3EC28D7C22900EF9B13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0BAC3EB28D7C22900EF9B13 /* Assets.xcassets */; };
+		E0BAC3EF28D7C22900EF9B13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0BAC3ED28D7C22900EF9B13 /* LaunchScreen.storyboard */; };
+		E0BAC3FA28D7C22900EF9B13 /* Vape_XTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC3F928D7C22900EF9B13 /* Vape_XTests.swift */; };
+		E0BAC40428D7C22900EF9B13 /* Vape_XUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC40328D7C22900EF9B13 /* Vape_XUITests.swift */; };
+		E0BAC40628D7C22900EF9B13 /* Vape_XUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC40528D7C22900EF9B13 /* Vape_XUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0BAC3F628D7C22900EF9B13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0BAC3D728D7C22800EF9B13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0BAC3DE28D7C22800EF9B13;
+			remoteInfo = "Vape-X";
+		};
+		E0BAC40028D7C22900EF9B13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0BAC3D728D7C22800EF9B13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0BAC3DE28D7C22800EF9B13;
+			remoteInfo = "Vape-X";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E0BAC3DF28D7C22800EF9B13 /* Vape-X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vape-X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0BAC3E228D7C22800EF9B13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E0BAC3E428D7C22800EF9B13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E0BAC3E628D7C22800EF9B13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E0BAC3E928D7C22800EF9B13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E0BAC3EB28D7C22900EF9B13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0BAC3EE28D7C22900EF9B13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E0BAC3F028D7C22900EF9B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0BAC3F528D7C22900EF9B13 /* Vape-XTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vape-XTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0BAC3F928D7C22900EF9B13 /* Vape_XTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vape_XTests.swift; sourceTree = "<group>"; };
+		E0BAC3FF28D7C22900EF9B13 /* Vape-XUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vape-XUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0BAC40328D7C22900EF9B13 /* Vape_XUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vape_XUITests.swift; sourceTree = "<group>"; };
+		E0BAC40528D7C22900EF9B13 /* Vape_XUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vape_XUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0BAC3DC28D7C22800EF9B13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0BAC3F228D7C22900EF9B13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0BAC3FC28D7C22900EF9B13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0BAC3D628D7C22800EF9B13 = {
+			isa = PBXGroup;
+			children = (
+				E0BAC3E128D7C22800EF9B13 /* Vape-X */,
+				E0BAC3F828D7C22900EF9B13 /* Vape-XTests */,
+				E0BAC40228D7C22900EF9B13 /* Vape-XUITests */,
+				E0BAC3E028D7C22800EF9B13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0BAC3E028D7C22800EF9B13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0BAC3DF28D7C22800EF9B13 /* Vape-X.app */,
+				E0BAC3F528D7C22900EF9B13 /* Vape-XTests.xctest */,
+				E0BAC3FF28D7C22900EF9B13 /* Vape-XUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0BAC3E128D7C22800EF9B13 /* Vape-X */ = {
+			isa = PBXGroup;
+			children = (
+				E0BAC3E228D7C22800EF9B13 /* AppDelegate.swift */,
+				E0BAC3E428D7C22800EF9B13 /* SceneDelegate.swift */,
+				E0BAC3E628D7C22800EF9B13 /* ViewController.swift */,
+				E0BAC3E828D7C22800EF9B13 /* Main.storyboard */,
+				E0BAC3EB28D7C22900EF9B13 /* Assets.xcassets */,
+				E0BAC3ED28D7C22900EF9B13 /* LaunchScreen.storyboard */,
+				E0BAC3F028D7C22900EF9B13 /* Info.plist */,
+			);
+			path = "Vape-X";
+			sourceTree = "<group>";
+		};
+		E0BAC3F828D7C22900EF9B13 /* Vape-XTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0BAC3F928D7C22900EF9B13 /* Vape_XTests.swift */,
+			);
+			path = "Vape-XTests";
+			sourceTree = "<group>";
+		};
+		E0BAC40228D7C22900EF9B13 /* Vape-XUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E0BAC40328D7C22900EF9B13 /* Vape_XUITests.swift */,
+				E0BAC40528D7C22900EF9B13 /* Vape_XUITestsLaunchTests.swift */,
+			);
+			path = "Vape-XUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0BAC3DE28D7C22800EF9B13 /* Vape-X */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0BAC40928D7C22900EF9B13 /* Build configuration list for PBXNativeTarget "Vape-X" */;
+			buildPhases = (
+				E0BAC3DB28D7C22800EF9B13 /* Sources */,
+				E0BAC3DC28D7C22800EF9B13 /* Frameworks */,
+				E0BAC3DD28D7C22800EF9B13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vape-X";
+			productName = "Vape-X";
+			productReference = E0BAC3DF28D7C22800EF9B13 /* Vape-X.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0BAC3F428D7C22900EF9B13 /* Vape-XTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0BAC40C28D7C22900EF9B13 /* Build configuration list for PBXNativeTarget "Vape-XTests" */;
+			buildPhases = (
+				E0BAC3F128D7C22900EF9B13 /* Sources */,
+				E0BAC3F228D7C22900EF9B13 /* Frameworks */,
+				E0BAC3F328D7C22900EF9B13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0BAC3F728D7C22900EF9B13 /* PBXTargetDependency */,
+			);
+			name = "Vape-XTests";
+			productName = "Vape-XTests";
+			productReference = E0BAC3F528D7C22900EF9B13 /* Vape-XTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E0BAC3FE28D7C22900EF9B13 /* Vape-XUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0BAC40F28D7C22900EF9B13 /* Build configuration list for PBXNativeTarget "Vape-XUITests" */;
+			buildPhases = (
+				E0BAC3FB28D7C22900EF9B13 /* Sources */,
+				E0BAC3FC28D7C22900EF9B13 /* Frameworks */,
+				E0BAC3FD28D7C22900EF9B13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0BAC40128D7C22900EF9B13 /* PBXTargetDependency */,
+			);
+			name = "Vape-XUITests";
+			productName = "Vape-XUITests";
+			productReference = E0BAC3FF28D7C22900EF9B13 /* Vape-XUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0BAC3D728D7C22800EF9B13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					E0BAC3DE28D7C22800EF9B13 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					E0BAC3F428D7C22900EF9B13 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = E0BAC3DE28D7C22800EF9B13;
+					};
+					E0BAC3FE28D7C22900EF9B13 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = E0BAC3DE28D7C22800EF9B13;
+					};
+				};
+			};
+			buildConfigurationList = E0BAC3DA28D7C22800EF9B13 /* Build configuration list for PBXProject "Vape-X" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0BAC3D628D7C22800EF9B13;
+			productRefGroup = E0BAC3E028D7C22800EF9B13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0BAC3DE28D7C22800EF9B13 /* Vape-X */,
+				E0BAC3F428D7C22900EF9B13 /* Vape-XTests */,
+				E0BAC3FE28D7C22900EF9B13 /* Vape-XUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0BAC3DD28D7C22800EF9B13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0BAC3EF28D7C22900EF9B13 /* LaunchScreen.storyboard in Resources */,
+				E0BAC3EC28D7C22900EF9B13 /* Assets.xcassets in Resources */,
+				E0BAC3EA28D7C22800EF9B13 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0BAC3F328D7C22900EF9B13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0BAC3FD28D7C22900EF9B13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0BAC3DB28D7C22800EF9B13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0BAC3E728D7C22800EF9B13 /* ViewController.swift in Sources */,
+				E0BAC3E328D7C22800EF9B13 /* AppDelegate.swift in Sources */,
+				E0BAC3E528D7C22800EF9B13 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0BAC3F128D7C22900EF9B13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0BAC3FA28D7C22900EF9B13 /* Vape_XTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0BAC3FB28D7C22900EF9B13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0BAC40428D7C22900EF9B13 /* Vape_XUITests.swift in Sources */,
+				E0BAC40628D7C22900EF9B13 /* Vape_XUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0BAC3F728D7C22900EF9B13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0BAC3DE28D7C22800EF9B13 /* Vape-X */;
+			targetProxy = E0BAC3F628D7C22900EF9B13 /* PBXContainerItemProxy */;
+		};
+		E0BAC40128D7C22900EF9B13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0BAC3DE28D7C22800EF9B13 /* Vape-X */;
+			targetProxy = E0BAC40028D7C22900EF9B13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E0BAC3E828D7C22800EF9B13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0BAC3E928D7C22800EF9B13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E0BAC3ED28D7C22900EF9B13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0BAC3EE28D7C22900EF9B13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0BAC40728D7C22900EF9B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E0BAC40828D7C22900EF9B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0BAC40A28D7C22900EF9B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96839QFWQR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Vape-X/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "None.Vape-X";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E0BAC40B28D7C22900EF9B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96839QFWQR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Vape-X/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "None.Vape-X";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E0BAC40D28D7C22900EF9B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96839QFWQR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "None.Vape-XTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vape-X.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vape-X";
+			};
+			name = Debug;
+		};
+		E0BAC40E28D7C22900EF9B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96839QFWQR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "None.Vape-XTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vape-X.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vape-X";
+			};
+			name = Release;
+		};
+		E0BAC41028D7C22900EF9B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96839QFWQR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "None.Vape-XUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Vape-X";
+			};
+			name = Debug;
+		};
+		E0BAC41128D7C22900EF9B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96839QFWQR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "None.Vape-XUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Vape-X";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0BAC3DA28D7C22800EF9B13 /* Build configuration list for PBXProject "Vape-X" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0BAC40728D7C22900EF9B13 /* Debug */,
+				E0BAC40828D7C22900EF9B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0BAC40928D7C22900EF9B13 /* Build configuration list for PBXNativeTarget "Vape-X" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0BAC40A28D7C22900EF9B13 /* Debug */,
+				E0BAC40B28D7C22900EF9B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0BAC40C28D7C22900EF9B13 /* Build configuration list for PBXNativeTarget "Vape-XTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0BAC40D28D7C22900EF9B13 /* Debug */,
+				E0BAC40E28D7C22900EF9B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0BAC40F28D7C22900EF9B13 /* Build configuration list for PBXNativeTarget "Vape-XUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0BAC41028D7C22900EF9B13 /* Debug */,
+				E0BAC41128D7C22900EF9B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0BAC3D728D7C22800EF9B13 /* Project object */;
+}
