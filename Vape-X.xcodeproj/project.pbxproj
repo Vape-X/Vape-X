@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		30FC3C2328D99A6B00F2FA59 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30FC3C2228D99A6B00F2FA59 /* GoogleService-Info.plist */; };
+		30B1D84828DAAD580019B37F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30B1D84728DAAD580019B37F /* GoogleService-Info.plist */; };
 		30FC3C2828D99AEE00F2FA59 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 30FC3C2728D99AEE00F2FA59 /* FirebaseAnalyticsSwift */; };
 		30FC3C2B28D9A16E00F2FA59 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 30FC3C2A28D9A16E00F2FA59 /* FirebaseCrashlytics */; };
 		30FC3C2E28D9A62800F2FA59 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 30FC3C2D28D9A62800F2FA59 /* FirebaseAnalytics */; };
@@ -41,7 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		30FC3C2228D99A6B00F2FA59 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		30B1D84728DAAD580019B37F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../.Trash/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E0BAC3DF28D7C22800EF9B13 /* Vape-X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vape-X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0BAC3E228D7C22800EF9B13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0BAC3E428D7C22800EF9B13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -122,9 +122,9 @@
 				E0BAC3E628D7C22800EF9B13 /* ViewController.swift */,
 				E0BAC3E828D7C22800EF9B13 /* Main.storyboard */,
 				E0BAC3EB28D7C22900EF9B13 /* Assets.xcassets */,
-				30FC3C2228D99A6B00F2FA59 /* GoogleService-Info.plist */,
 				E0BAC3ED28D7C22900EF9B13 /* LaunchScreen.storyboard */,
 				E0BAC3F028D7C22900EF9B13 /* Info.plist */,
+				30B1D84728DAAD580019B37F /* GoogleService-Info.plist */,
 			);
 			path = "Vape-X";
 			sourceTree = "<group>";
@@ -261,7 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0BAC3EF28D7C22900EF9B13 /* LaunchScreen.storyboard in Resources */,
-				30FC3C2328D99A6B00F2FA59 /* GoogleService-Info.plist in Resources */,
+				30B1D84828DAAD580019B37F /* GoogleService-Info.plist in Resources */,
 				E0BAC3EC28D7C22900EF9B13 /* Assets.xcassets in Resources */,
 				E0BAC3EA28D7C22800EF9B13 /* Main.storyboard in Resources */,
 			);
