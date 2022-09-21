@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginVC" customModule="Vape_X" customModuleProvider="target">
             <connections>
+                <outlet property="passwordTxtField" destination="bSb-pl-ngf" id="GBn-gU-qyr"/>
                 <outlet property="txtFieldUsername" destination="oJW-IP-Cg9" id="yHw-gM-yPh"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -159,6 +160,9 @@
                                     <state key="normal" title="Forgot password?">
                                         <color key="titleColor" red="0.84705877299999999" green="0.78823530669999997" blue="0.52156865600000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </state>
+                                    <connections>
+                                        <action selector="passwordBtnPressed:" destination="-1" eventType="touchUpInside" id="LOA-hN-hMx"/>
+                                    </connections>
                                 </button>
                             </subviews>
                             <color key="backgroundColor" red="0.062745101750000004" green="0.0039215688589999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -185,6 +189,9 @@
                                     <state key="normal" title="Log in">
                                         <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </state>
+                                    <connections>
+                                        <action selector="loginBtnPressed:" destination="-1" eventType="touchUpInside" id="soC-89-y5z"/>
+                                    </connections>
                                 </button>
                             </subviews>
                             <color key="backgroundColor" red="0.062745101750000004" green="0.0039215688589999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -255,16 +262,25 @@
                                             <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
                                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                             <state key="normal" image="fb"/>
+                                            <connections>
+                                                <action selector="fbBtnPressed:" destination="-1" eventType="touchUpInside" id="w7x-ax-S8c"/>
+                                            </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WcV-7r-n8m">
                                             <rect key="frame" x="127.5" y="0.0" width="60" height="60"/>
                                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                             <state key="normal" image="ig"/>
+                                            <connections>
+                                                <action selector="igBtnPressed:" destination="-1" eventType="touchUpInside" id="Z9Y-zb-96n"/>
+                                            </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NmD-CW-UxU">
                                             <rect key="frame" x="255" y="0.0" width="60" height="60"/>
                                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                             <state key="normal" image="twt"/>
+                                            <connections>
+                                                <action selector="twtBtnPressed:" destination="-1" eventType="touchUpInside" id="Md0-TV-6wT"/>
+                                            </connections>
                                         </button>
                                     </subviews>
                                 </stackView>

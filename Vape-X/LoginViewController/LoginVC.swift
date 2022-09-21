@@ -8,8 +8,28 @@
 import UIKit
 
 class LoginVC: UIViewController {
-
+    
+    //Outlets
     @IBOutlet weak var txtFieldUsername: UITextField!
+    
+    @IBOutlet weak var passwordTxtField: UITextField!
+    
+    //Actions
+    @IBAction func passwordBtnPressed(_ sender: UIButton) {
+    }
+    
+    @IBAction func loginBtnPressed(_ sender: Any) {
+    }
+    
+    @IBAction func fbBtnPressed(_ sender: Any) {
+    }
+    
+    
+    @IBAction func igBtnPressed(_ sender: Any) {
+    }
+    
+    @IBAction func twtBtnPressed(_ sender: Any) {
+    }
     
     
     
