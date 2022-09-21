@@ -11,7 +11,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+       
+        let loginVC = LoginVC(nibName: "LoginVC", bundle: nil)
+
+        self.navigationController?.pushViewController(loginVC, animated: true)
+       
     }
 
 

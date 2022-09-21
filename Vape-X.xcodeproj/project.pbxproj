@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		98C15B3528DA198B0092E75E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C15B3428DA198B0092E75E /* LoginViewController.swift */; };
-		98C15B3728DA19B70092E75E /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98C15B3628DA19B70092E75E /* LoginStoryboard.storyboard */; };
+		9817778628DB754E00E16EF6 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9817778428DB754E00E16EF6 /* LoginVC.swift */; };
+		9817778728DB754E00E16EF6 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9817778528DB754E00E16EF6 /* LoginVC.xib */; };
 		E0BAC3E328D7C22800EF9B13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC3E228D7C22800EF9B13 /* AppDelegate.swift */; };
 		E0BAC3E528D7C22800EF9B13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC3E428D7C22800EF9B13 /* SceneDelegate.swift */; };
 		E0BAC3E728D7C22800EF9B13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC3E628D7C22800EF9B13 /* ViewController.swift */; };
@@ -38,8 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		98C15B3428DA198B0092E75E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		98C15B3628DA19B70092E75E /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
+		9817778428DB754E00E16EF6 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		9817778528DB754E00E16EF6 /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
 		E0BAC3DF28D7C22800EF9B13 /* Vape-X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vape-X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0BAC3E228D7C22800EF9B13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0BAC3E428D7C22800EF9B13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +80,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		980EB64428DA25AF009281EF /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9817778428DB754E00E16EF6 /* LoginVC.swift */,
+				9817778528DB754E00E16EF6 /* LoginVC.xib */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
 		E0BAC3D628D7C22800EF9B13 = {
 			isa = PBXGroup;
 			children = (
@@ -103,12 +112,11 @@
 		E0BAC3E128D7C22800EF9B13 /* Vape-X */ = {
 			isa = PBXGroup;
 			children = (
+				980EB64428DA25AF009281EF /* LoginViewController */,
 				E0BAC3E228D7C22800EF9B13 /* AppDelegate.swift */,
 				E0BAC3E428D7C22800EF9B13 /* SceneDelegate.swift */,
 				E0BAC3E628D7C22800EF9B13 /* ViewController.swift */,
 				E0BAC3E828D7C22800EF9B13 /* Main.storyboard */,
-				98C15B3428DA198B0092E75E /* LoginViewController.swift */,
-				98C15B3628DA19B70092E75E /* LoginStoryboard.storyboard */,
 				E0BAC3EB28D7C22900EF9B13 /* Assets.xcassets */,
 				E0BAC3ED28D7C22900EF9B13 /* LaunchScreen.storyboard */,
 				E0BAC3F028D7C22900EF9B13 /* Info.plist */,
@@ -237,10 +245,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9817778728DB754E00E16EF6 /* LoginVC.xib in Resources */,
 				E0BAC3EF28D7C22900EF9B13 /* LaunchScreen.storyboard in Resources */,
 				E0BAC3EC28D7C22900EF9B13 /* Assets.xcassets in Resources */,
 				E0BAC3EA28D7C22800EF9B13 /* Main.storyboard in Resources */,
-				98C15B3728DA19B70092E75E /* LoginStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,10 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98C15B3528DA198B0092E75E /* LoginViewController.swift in Sources */,
 				E0BAC3E728D7C22800EF9B13 /* ViewController.swift in Sources */,
 				E0BAC3E328D7C22800EF9B13 /* AppDelegate.swift in Sources */,
 				E0BAC3E528D7C22800EF9B13 /* SceneDelegate.swift in Sources */,
+				9817778628DB754E00E16EF6 /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
