@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		30B1D84A28DAB39A0019B37F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30B1D84928DAB39A0019B37F /* GoogleService-Info.plist */; };
+		30B1D84E28DAB9C50019B37F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30B1D84D28DAB9C50019B37F /* GoogleService-Info.plist */; };
+		30B1D84F28DAB9C50019B37F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30B1D84D28DAB9C50019B37F /* GoogleService-Info.plist */; };
+		30B1D85028DAB9C50019B37F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30B1D84D28DAB9C50019B37F /* GoogleService-Info.plist */; };
 		30FC3C2828D99AEE00F2FA59 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 30FC3C2728D99AEE00F2FA59 /* FirebaseAnalyticsSwift */; };
 		30FC3C2B28D9A16E00F2FA59 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 30FC3C2A28D9A16E00F2FA59 /* FirebaseCrashlytics */; };
 		30FC3C2E28D9A62800F2FA59 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 30FC3C2D28D9A62800F2FA59 /* FirebaseAnalytics */; };
@@ -41,7 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		30B1D84928DAB39A0019B37F /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		30B1D84D28DAB9C50019B37F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E0BAC3DF28D7C22800EF9B13 /* Vape-X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vape-X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0BAC3E228D7C22800EF9B13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0BAC3E428D7C22800EF9B13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,7 +125,7 @@
 				E0BAC3E828D7C22800EF9B13 /* Main.storyboard */,
 				E0BAC3EB28D7C22900EF9B13 /* Assets.xcassets */,
 				E0BAC3ED28D7C22900EF9B13 /* LaunchScreen.storyboard */,
-				30B1D84928DAB39A0019B37F /* GoogleService-Info.plist */,
+				30B1D84D28DAB9C50019B37F /* GoogleService-Info.plist */,
 				E0BAC3F028D7C22900EF9B13 /* Info.plist */,
 			);
 			path = "Vape-X";
@@ -261,7 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0BAC3EF28D7C22900EF9B13 /* LaunchScreen.storyboard in Resources */,
-				30B1D84A28DAB39A0019B37F /* GoogleService-Info.plist in Resources */,
+				30B1D84E28DAB9C50019B37F /* GoogleService-Info.plist in Resources */,
 				E0BAC3EC28D7C22900EF9B13 /* Assets.xcassets in Resources */,
 				E0BAC3EA28D7C22800EF9B13 /* Main.storyboard in Resources */,
 			);
@@ -271,6 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30B1D84F28DAB9C50019B37F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +281,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30B1D85028DAB9C50019B37F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
