@@ -18,4 +18,6 @@ platform :ios do
     gym(export_method: "ad-hoc")
      
   end
+  ENV["FASTLANE_XCODEBUILD_SETTINGS_TIMEOUT"] = "180"
+  ENV["FASTLANE_XCODE_LIST_TIMEOUT"] = "180"
 end
