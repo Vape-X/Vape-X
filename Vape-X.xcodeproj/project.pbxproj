@@ -10,6 +10,8 @@
 		30B1D85628DABFF70019B37F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30B1D85528DABFF70019B37F /* GoogleService-Info.plist */; };
 		30B1D85728DABFF70019B37F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30B1D85528DABFF70019B37F /* GoogleService-Info.plist */; };
 		30B1D85828DABFF70019B37F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30B1D85528DABFF70019B37F /* GoogleService-Info.plist */; };
+		30B1D85A28DAD8A30019B37F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 30B1D85928DAD8A30019B37F /* FirebaseAuth */; };
+		30B1D85C28DAD8D50019B37F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 30B1D85B28DAD8D50019B37F /* FirebaseAuth */; };
 		30FC3C2828D99AEE00F2FA59 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 30FC3C2728D99AEE00F2FA59 /* FirebaseAnalyticsSwift */; };
 		30FC3C2B28D9A16E00F2FA59 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 30FC3C2A28D9A16E00F2FA59 /* FirebaseCrashlytics */; };
 		30FC3C2E28D9A62800F2FA59 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 30FC3C2D28D9A62800F2FA59 /* FirebaseAnalytics */; };
@@ -65,6 +67,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30FC3C2B28D9A16E00F2FA59 /* FirebaseCrashlytics in Frameworks */,
+				30B1D85A28DAD8A30019B37F /* FirebaseAuth in Frameworks */,
 				30FC3C2828D99AEE00F2FA59 /* FirebaseAnalyticsSwift in Frameworks */,
 				30FC3C2E28D9A62800F2FA59 /* FirebaseAnalytics in Frameworks */,
 				30FC3C3028D9A63000F2FA59 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
@@ -75,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30B1D85C28DAD8D50019B37F /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +174,7 @@
 				30FC3C2A28D9A16E00F2FA59 /* FirebaseCrashlytics */,
 				30FC3C2D28D9A62800F2FA59 /* FirebaseAnalytics */,
 				30FC3C2F28D9A63000F2FA59 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				30B1D85928DAD8A30019B37F /* FirebaseAuth */,
 			);
 			productName = "Vape-X";
 			productReference = E0BAC3DF28D7C22800EF9B13 /* Vape-X.app */;
@@ -189,6 +194,9 @@
 				E0BAC3F728D7C22900EF9B13 /* PBXTargetDependency */,
 			);
 			name = "Vape-XTests";
+			packageProductDependencies = (
+				30B1D85B28DAD8D50019B37F /* FirebaseAuth */,
+			);
 			productName = "Vape-XTests";
 			productReference = E0BAC3F528D7C22900EF9B13 /* Vape-XTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -674,6 +682,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		30B1D85928DAD8A30019B37F /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30FC3C2428D99AEE00F2FA59 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		30B1D85B28DAD8D50019B37F /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30FC3C2428D99AEE00F2FA59 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
 		30FC3C2728D99AEE00F2FA59 /* FirebaseAnalyticsSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 30FC3C2428D99AEE00F2FA59 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
