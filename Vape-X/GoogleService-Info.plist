@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>248477888858-k59r7ba2h870erlm2gu7qi9408so9raq.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.248477888858-k59r7ba2h870erlm2gu7qi9408so9raq</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA-DMTHveMEGvjjBPGsJDEfl8mKWxa2hjk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>248477888858</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>None.Vape-X</string>
+	<key>PROJECT_ID</key>
+	<string>vape-x-81c65</string>
+	<key>STORAGE_BUCKET</key>
+	<string>vape-x-81c65.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:248477888858:ios:9a54f31d276e1ea374c363</string>
+</dict>
+</plist>
