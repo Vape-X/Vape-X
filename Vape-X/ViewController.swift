@@ -8,7 +8,6 @@
 import UIKit
 import FirebaseAnalytics
 
-
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
