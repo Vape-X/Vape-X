@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98B1C06A43A3A233710099E8 /* Pods_Vape_X_Vape_XUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5C5EDA185B6EDAFE647CB5 /* Pods_Vape_X_Vape_XUITests.framework */; };
+		D4CF9175286493893BA8E77C /* Pods_Vape_X.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D70F519E962F23B4417DCC /* Pods_Vape_X.framework */; };
 		E0BAC3E328D7C22800EF9B13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC3E228D7C22800EF9B13 /* AppDelegate.swift */; };
 		E0BAC3E528D7C22800EF9B13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC3E428D7C22800EF9B13 /* SceneDelegate.swift */; };
 		E0BAC3E728D7C22800EF9B13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC3E628D7C22800EF9B13 /* ViewController.swift */; };
@@ -16,6 +18,7 @@
 		E0BAC3FA28D7C22900EF9B13 /* Vape_XTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC3F928D7C22900EF9B13 /* Vape_XTests.swift */; };
 		E0BAC40428D7C22900EF9B13 /* Vape_XUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC40328D7C22900EF9B13 /* Vape_XUITests.swift */; };
 		E0BAC40628D7C22900EF9B13 /* Vape_XUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC40528D7C22900EF9B13 /* Vape_XUITestsLaunchTests.swift */; };
+		F826BEF7191720AF68BEE069 /* Pods_Vape_XTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920A7DBA73E5D9A64676CC91 /* Pods_Vape_XTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1582C6DCF432E0AD098983A3 /* Pods-Vape-X.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vape-X.debug.xcconfig"; path = "Target Support Files/Pods-Vape-X/Pods-Vape-X.debug.xcconfig"; sourceTree = "<group>"; };
+		1ABB1D7C16A78C97E1A60507 /* Pods-Vape-XTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vape-XTests.debug.xcconfig"; path = "Target Support Files/Pods-Vape-XTests/Pods-Vape-XTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3DD3AC78959861473E8ABB22 /* Pods-Vape-XTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vape-XTests.release.xcconfig"; path = "Target Support Files/Pods-Vape-XTests/Pods-Vape-XTests.release.xcconfig"; sourceTree = "<group>"; };
+		4226C20377A52F157BEFF33E /* Pods-Vape-X.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vape-X.release.xcconfig"; path = "Target Support Files/Pods-Vape-X/Pods-Vape-X.release.xcconfig"; sourceTree = "<group>"; };
+		4C5C5EDA185B6EDAFE647CB5 /* Pods_Vape_X_Vape_XUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vape_X_Vape_XUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6291B0D327D1E14B61384C80 /* Pods-Vape-X-Vape-XUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vape-X-Vape-XUITests.debug.xcconfig"; path = "Target Support Files/Pods-Vape-X-Vape-XUITests/Pods-Vape-X-Vape-XUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		80D70F519E962F23B4417DCC /* Pods_Vape_X.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vape_X.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90DD89087DE64290392F3B1C /* Pods-Vape-X-Vape-XUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vape-X-Vape-XUITests.release.xcconfig"; path = "Target Support Files/Pods-Vape-X-Vape-XUITests/Pods-Vape-X-Vape-XUITests.release.xcconfig"; sourceTree = "<group>"; };
+		920A7DBA73E5D9A64676CC91 /* Pods_Vape_XTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vape_XTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0BAC3DF28D7C22800EF9B13 /* Vape-X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vape-X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0BAC3E228D7C22800EF9B13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0BAC3E428D7C22800EF9B13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4CF9175286493893BA8E77C /* Pods_Vape_X.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F826BEF7191720AF68BEE069 /* Pods_Vape_XTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98B1C06A43A3A233710099E8 /* Pods_Vape_X_Vape_XUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10D23393696E2A52927E912A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80D70F519E962F23B4417DCC /* Pods_Vape_X.framework */,
+				4C5C5EDA185B6EDAFE647CB5 /* Pods_Vape_X_Vape_XUITests.framework */,
+				920A7DBA73E5D9A64676CC91 /* Pods_Vape_XTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E0BAC3D628D7C22800EF9B13 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				E0BAC3F828D7C22900EF9B13 /* Vape-XTests */,
 				E0BAC40228D7C22900EF9B13 /* Vape-XUITests */,
 				E0BAC3E028D7C22800EF9B13 /* Products */,
+				FA5373D4415E425050015F02 /* Pods */,
+				10D23393696E2A52927E912A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +154,20 @@
 			path = "Vape-XUITests";
 			sourceTree = "<group>";
 		};
+		FA5373D4415E425050015F02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1582C6DCF432E0AD098983A3 /* Pods-Vape-X.debug.xcconfig */,
+				4226C20377A52F157BEFF33E /* Pods-Vape-X.release.xcconfig */,
+				6291B0D327D1E14B61384C80 /* Pods-Vape-X-Vape-XUITests.debug.xcconfig */,
+				90DD89087DE64290392F3B1C /* Pods-Vape-X-Vape-XUITests.release.xcconfig */,
+				1ABB1D7C16A78C97E1A60507 /* Pods-Vape-XTests.debug.xcconfig */,
+				3DD3AC78959861473E8ABB22 /* Pods-Vape-XTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +175,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0BAC40928D7C22900EF9B13 /* Build configuration list for PBXNativeTarget "Vape-X" */;
 			buildPhases = (
+				68D6D8043ED20523480AFED9 /* [CP] Check Pods Manifest.lock */,
+				2315856628DBC9AC003D5CCC /* ShellScript */,
 				E0BAC3DB28D7C22800EF9B13 /* Sources */,
 				E0BAC3DC28D7C22800EF9B13 /* Frameworks */,
 				E0BAC3DD28D7C22800EF9B13 /* Resources */,
@@ -151,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0BAC40C28D7C22900EF9B13 /* Build configuration list for PBXNativeTarget "Vape-XTests" */;
 			buildPhases = (
+				3E7D7F18F6424B500A153A98 /* [CP] Check Pods Manifest.lock */,
 				E0BAC3F128D7C22900EF9B13 /* Sources */,
 				E0BAC3F228D7C22900EF9B13 /* Frameworks */,
 				E0BAC3F328D7C22900EF9B13 /* Resources */,
@@ -169,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0BAC40F28D7C22900EF9B13 /* Build configuration list for PBXNativeTarget "Vape-XUITests" */;
 			buildPhases = (
+				F926E02EF452A9B15B505C81 /* [CP] Check Pods Manifest.lock */,
 				E0BAC3FB28D7C22900EF9B13 /* Sources */,
 				E0BAC3FC28D7C22900EF9B13 /* Frameworks */,
 				E0BAC3FD28D7C22900EF9B13 /* Resources */,
@@ -252,6 +297,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2315856628DBC9AC003D5CCC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		3E7D7F18F6424B500A153A98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vape-XTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68D6D8043ED20523480AFED9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vape-X-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F926E02EF452A9B15B505C81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vape-X-Vape-XUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E0BAC3DB28D7C22800EF9B13 /* Sources */ = {
@@ -432,6 +563,7 @@
 		};
 		E0BAC40A28D7C22900EF9B13 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1582C6DCF432E0AD098983A3 /* Pods-Vape-X.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +592,7 @@
 		};
 		E0BAC40B28D7C22900EF9B13 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4226C20377A52F157BEFF33E /* Pods-Vape-X.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +621,7 @@
 		};
 		E0BAC40D28D7C22900EF9B13 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ABB1D7C16A78C97E1A60507 /* Pods-Vape-XTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +642,7 @@
 		};
 		E0BAC40E28D7C22900EF9B13 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DD3AC78959861473E8ABB22 /* Pods-Vape-XTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +663,7 @@
 		};
 		E0BAC41028D7C22900EF9B13 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6291B0D327D1E14B61384C80 /* Pods-Vape-X-Vape-XUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +682,7 @@
 		};
 		E0BAC41128D7C22900EF9B13 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90DD89087DE64290392F3B1C /* Pods-Vape-X-Vape-XUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
