@@ -8,7 +8,7 @@
 import UIKit
 
 class OTPScreenViewController: UIViewController {
-
+    
     @IBOutlet weak var createAccountOTPButton: UIButton!
     @IBOutlet weak var OTPFirstTextField: UITextField!
     @IBOutlet weak var OTPSecondTextField: UITextField!
@@ -17,18 +17,26 @@ class OTPScreenViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        OTPFirstTextField.addTarget(self, action: #selector(textDidChange), for: .editingChanged)
-        OTPSecondTextField.addTarget(self, action: #selector(textDidChange), for: .editingChanged)
-        OTPThirdTextField.addTarget(self, action: #selector(textDidChange), for: .editingChanged)
-        OTPFourthTextField.addTarget(self, action: #selector(textDidChange), for: .editingChanged)
+        editingTextField()
+        cornerRadius()
+    }
+    
+    func cornerRadius() {
         createAccountOTPButton.layer.cornerRadius = 35
         createAccountOTPButton.layer.masksToBounds = true
     }
     
+    func editingTextField() {
+        OTPFirstTextField.addTarget(self, action: #selector(textDidChange), for: .editingChanged)
+        OTPSecondTextField.addTarget(self, action: #selector(textDidChange), for: .editingChanged)
+        OTPThirdTextField.addTarget(self, action: #selector(textDidChange), for: .editingChanged)
+        OTPFourthTextField.addTarget(self, action: #selector(textDidChange), for: .editingChanged)
+    }
+    
     @objc func textDidChange(textField: UITextField) {
         let text = textField.text
-        if text?.count == 1{
-            switch textField{
+        if text?.count == 1 {
+            switch textField {
             case OTPFirstTextField:
                 OTPSecondTextField.becomeFirstResponder()
             case OTPSecondTextField:
@@ -40,8 +48,8 @@ class OTPScreenViewController: UIViewController {
             default:
                 break
             }
-        }else if text?.count == 0{
-            switch textField{
+        }else if text?.count == 0 {
+            switch textField {
             case OTPFirstTextField:
                 OTPFirstTextField.becomeFirstResponder()
             case OTPSecondTextField:
