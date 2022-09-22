@@ -7,31 +7,20 @@
 
 import UIKit
 
-class LoginVC: UIViewController {
+class LoginViewController: UIViewController {
     
-    //Outlets
-    @IBOutlet weak var txtFieldUsername: UITextField!
-    
-    @IBOutlet weak var passwordTxtField: UITextField!
-    
-    //Actions
-    @IBAction func passwordBtnPressed(_ sender: UIButton) {
+    @IBOutlet weak var textfieldUsername: UITextField!
+    @IBOutlet weak var txtfieldPassword: UITextField!
+    @IBAction func forgotPasswordButtonPressed(_ sender: UIButton) {
     }
-    
-    @IBAction func loginBtnPressed(_ sender: Any) {
+    @IBAction func loginButtonPressed(_ sender: Any) {
     }
-    
-    @IBAction func fbBtnPressed(_ sender: Any) {
+    @IBAction func facebookButttonPressed(_ sender: Any) {
     }
-    
-    
-    @IBAction func igBtnPressed(_ sender: Any) {
+    @IBAction func instagramButtonPressed(_ sender: Any) {
     }
-    
-    @IBAction func twtBtnPressed(_ sender: Any) {
+    @IBAction func twittertButtonPressed(_ sender: Any) {
     }
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
