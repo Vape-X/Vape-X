@@ -104,13 +104,13 @@
 			isa = PBXGroup;
 			children = (
 				E0BAC3E228D7C22800EF9B13 /* AppDelegate.swift */,
-				B3BF0E3128DBEA5D006FE203 /* OTPScreenViewController.swift */,
 				E0BAC3E428D7C22800EF9B13 /* SceneDelegate.swift */,
 				E0BAC3E628D7C22800EF9B13 /* ViewController.swift */,
+				B3BF0E3128DBEA5D006FE203 /* OTPScreenViewController.swift */,
 				E0BAC3E828D7C22800EF9B13 /* Main.storyboard */,
-				E0BAC3EB28D7C22900EF9B13 /* Assets.xcassets */,
 				B3BF0E3728DBF0D6006FE203 /* OTPScreenStoryboard.storyboard */,
 				E0BAC3ED28D7C22900EF9B13 /* LaunchScreen.storyboard */,
+				E0BAC3EB28D7C22900EF9B13 /* Assets.xcassets */,
 				E0BAC3F028D7C22900EF9B13 /* Info.plist */,
 			);
 			path = "Vape-X";

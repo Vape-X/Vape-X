@@ -53,7 +53,7 @@
                                             <constraint firstAttribute="height" constant="75" id="Fh0-w0-XwK"/>
                                             <constraint firstAttribute="width" constant="75" id="uG0-Nc-fGA"/>
                                         </constraints>
-                                        <color key="textColor" name="TextFieldColor"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="55"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                     </textField>
@@ -136,9 +136,6 @@
         </namedColor>
         <namedColor name="OTPTextFieldColor">
             <color red="0.2196078431372549" green="0.019607843137254902" blue="0.011764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="TextFieldColor">
-            <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>

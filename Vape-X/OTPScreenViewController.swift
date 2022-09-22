@@ -23,8 +23,6 @@ class OTPScreenViewController: UIViewController {
         OTPFourthTextField.addTarget(self, action: #selector(textDidChange), for: .editingChanged)
         createAccountOTPButton.layer.cornerRadius = 35
         createAccountOTPButton.layer.masksToBounds = true
-        
-        //hello
     }
     
     @objc func textDidChange(textField: UITextField) {
