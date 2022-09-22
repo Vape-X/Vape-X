@@ -2,28 +2,25 @@
 //  LoginPageViewController.swift
 //  Vape-X
 //
-//  Created by Maha Qayyum on 9/20/22.
+//  Created by Maha Qayyum on 9/22/22.
 //
 
 import UIKit
 
 class LoginPageViewController: UIViewController {
 
+    @IBOutlet weak var username: UITextField!
+    @IBOutlet weak var email: UITextField!
+    @IBOutlet weak var phoneNumber: UITextField!
+    @IBOutlet weak var password: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func next(_ sender: Any) {
     }
-    */
-
+    
+    @IBAction func login(_ sender: Any) {
+    }
 }
