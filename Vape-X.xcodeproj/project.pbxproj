@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AFA2DF9528DA504200B04F7B /* WelcomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA2DF9428DA504200B04F7B /* WelcomeScreenViewController.swift */; };
-		AFA2DF9728DA505F00B04F7B /* WelcomeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFA2DF9628DA505F00B04F7B /* WelcomeStoryboard.storyboard */; };
+		AF0583F728DBF6A8005B79A9 /* WelcomeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF0583F628DBF6A8005B79A9 /* WelcomeStoryboard.storyboard */; };
+		AF0583FD28DBFA5D005B79A9 /* WelcomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0583FC28DBFA5D005B79A9 /* WelcomeScreenViewController.swift */; };
 		E0BAC3E328D7C22800EF9B13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC3E228D7C22800EF9B13 /* AppDelegate.swift */; };
 		E0BAC3E528D7C22800EF9B13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC3E428D7C22800EF9B13 /* SceneDelegate.swift */; };
 		E0BAC3E728D7C22800EF9B13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC3E628D7C22800EF9B13 /* ViewController.swift */; };
@@ -38,8 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AFA2DF9428DA504200B04F7B /* WelcomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenViewController.swift; sourceTree = "<group>"; };
-		AFA2DF9628DA505F00B04F7B /* WelcomeStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WelcomeStoryboard.storyboard; sourceTree = "<group>"; };
+		AF0583F628DBF6A8005B79A9 /* WelcomeStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WelcomeStoryboard.storyboard; sourceTree = "<group>"; };
+		AF0583FC28DBFA5D005B79A9 /* WelcomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenViewController.swift; sourceTree = "<group>"; };
 		E0BAC3DF28D7C22800EF9B13 /* Vape-X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vape-X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0BAC3E228D7C22800EF9B13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0BAC3E428D7C22800EF9B13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,19 +80,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AFA2DF9828DAB3DE00B04F7B /* Welcome */ = {
-			isa = PBXGroup;
-			children = (
-				AFA2DF9628DA505F00B04F7B /* WelcomeStoryboard.storyboard */,
-				AFA2DF9428DA504200B04F7B /* WelcomeScreenViewController.swift */,
-			);
-			path = Welcome;
-			sourceTree = "<group>";
-		};
 		E0BAC3D628D7C22800EF9B13 = {
 			isa = PBXGroup;
 			children = (
-				AFA2DF9828DAB3DE00B04F7B /* Welcome */,
 				E0BAC3E128D7C22800EF9B13 /* Vape-X */,
 				E0BAC3F828D7C22900EF9B13 /* Vape-XTests */,
 				E0BAC40228D7C22900EF9B13 /* Vape-XUITests */,
@@ -115,6 +105,8 @@
 			children = (
 				E0BAC3E228D7C22800EF9B13 /* AppDelegate.swift */,
 				E0BAC3E428D7C22800EF9B13 /* SceneDelegate.swift */,
+				AF0583F628DBF6A8005B79A9 /* WelcomeStoryboard.storyboard */,
+				AF0583FC28DBFA5D005B79A9 /* WelcomeScreenViewController.swift */,
 				E0BAC3E628D7C22800EF9B13 /* ViewController.swift */,
 				E0BAC3E828D7C22800EF9B13 /* Main.storyboard */,
 				E0BAC3EB28D7C22900EF9B13 /* Assets.xcassets */,
@@ -245,10 +237,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFA2DF9728DA505F00B04F7B /* WelcomeStoryboard.storyboard in Resources */,
 				E0BAC3EF28D7C22900EF9B13 /* LaunchScreen.storyboard in Resources */,
 				E0BAC3EC28D7C22900EF9B13 /* Assets.xcassets in Resources */,
 				E0BAC3EA28D7C22800EF9B13 /* Main.storyboard in Resources */,
+				AF0583F728DBF6A8005B79A9 /* WelcomeStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0BAC3E728D7C22800EF9B13 /* ViewController.swift in Sources */,
-				AFA2DF9528DA504200B04F7B /* WelcomeScreenViewController.swift in Sources */,
 				E0BAC3E328D7C22800EF9B13 /* AppDelegate.swift in Sources */,
+				AF0583FD28DBFA5D005B79A9 /* WelcomeScreenViewController.swift in Sources */,
 				E0BAC3E528D7C22800EF9B13 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
