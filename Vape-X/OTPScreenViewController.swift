@@ -22,7 +22,7 @@ class OTPScreenViewController: UIViewController {
     }
     
     func cornerRadius() {
-        createAccountOTPButton.layer.cornerRadius = 35
+        createAccountOTPButton.layer.cornerRadius = 22
         createAccountOTPButton.layer.masksToBounds = true
     }
     
@@ -48,7 +48,8 @@ class OTPScreenViewController: UIViewController {
             default:
                 break
             }
-        }else if text?.count == 0 {
+            
+        } else if text?.count == 0 {
             switch textField {
             case OTPFirstTextField:
                 OTPFirstTextField.becomeFirstResponder()

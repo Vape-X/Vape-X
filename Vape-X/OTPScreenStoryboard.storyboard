@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_0" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
@@ -9,32 +9,32 @@
     </dependencies>
     <scenes>
         <!--Screen View Controller-->
-        <scene sceneID="jjP-VC-FGO">
+        <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController id="fNR-2g-Hkn" customClass="OTPScreenViewController" customModule="Vape_X" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="pwC-8V-cXV">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                <viewController id="Y6W-OH-hqX" customClass="OTPScreenViewController" customModule="Vape_X" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tray" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="3Lr-II-c1X">
-                                <rect key="frame" x="16" y="457" width="357" height="146"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tray" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="YCR-hn-SqT">
+                                <rect key="frame" x="16" y="545" width="397" height="146"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="150" id="xZa-ZT-bjz"/>
+                                    <constraint firstAttribute="height" constant="150" id="jzC-4c-9iq"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Verification Code" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gOe-De-ueK">
-                                <rect key="frame" x="10" y="67" width="370" height="90"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Verification Code" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A3p-8a-dLL">
+                                <rect key="frame" x="10" y="79" width="410" height="90"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="90" id="X8s-tb-Fz5"/>
+                                    <constraint firstAttribute="height" constant="90" id="gil-Oc-85c"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="31"/>
-                                <color key="textColor" name="OTPLabelTextColor"/>
+                                <color key="textColor" name="LabelTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0jB-X7-qeO">
-                                <rect key="frame" x="40" y="655" width="310" height="75"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vZG-TZ-io8">
+                                <rect key="frame" x="40" y="743" width="350" height="75"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="75" id="UbN-fF-4Cz"/>
+                                    <constraint firstAttribute="height" constant="75" id="ebD-Qe-VN7"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Create Account">
@@ -43,48 +43,48 @@
                                     <color key="baseBackgroundColor" name="OTPLabelTextColor"/>
                                 </buttonConfiguration>
                             </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="2SY-Gd-uwC">
-                                <rect key="frame" x="33" y="237" width="324" height="75"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="eIb-lB-u0Z">
+                                <rect key="frame" x="53" y="249" width="324" height="75"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="1" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MEe-Y6-enw">
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="1" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Omm-3E-2O3">
                                         <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
-                                        <color key="backgroundColor" name="OTPTextFieldColor"/>
+                                        <color key="backgroundColor" name="TextFieldColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="75" id="Fh0-w0-XwK"/>
-                                            <constraint firstAttribute="width" constant="75" id="uG0-Nc-fGA"/>
+                                            <constraint firstAttribute="width" constant="75" id="Q0u-uY-XPh"/>
+                                            <constraint firstAttribute="height" constant="75" id="ldq-5E-F4l"/>
                                         </constraints>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="55"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="2" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uHq-12-cXf">
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="2" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cHH-ee-vHG">
                                         <rect key="frame" x="83" y="0.0" width="75" height="75"/>
-                                        <color key="backgroundColor" name="OTPTextFieldColor"/>
+                                        <color key="backgroundColor" name="TextFieldColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="75" id="RQz-BZ-kzt"/>
-                                            <constraint firstAttribute="height" constant="75" id="erj-fR-CaE"/>
+                                            <constraint firstAttribute="width" constant="75" id="110-M5-JfF"/>
+                                            <constraint firstAttribute="height" constant="75" id="Zaf-J0-ssV"/>
                                         </constraints>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="55"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="3" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KFM-uu-XkO">
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="3" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="de3-3W-zBm">
                                         <rect key="frame" x="166" y="0.0" width="75" height="75"/>
-                                        <color key="backgroundColor" name="OTPTextFieldColor"/>
+                                        <color key="backgroundColor" name="TextFieldColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="75" id="7Tk-pt-nvu"/>
-                                            <constraint firstAttribute="height" constant="75" id="JBC-0H-bPH"/>
+                                            <constraint firstAttribute="width" constant="75" id="j5W-wR-Vqt"/>
+                                            <constraint firstAttribute="height" constant="75" id="tF3-Sc-QWY"/>
                                         </constraints>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="55"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="4" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZAb-Pj-7R3">
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="4" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="78A-t7-FBg">
                                         <rect key="frame" x="249" y="0.0" width="75" height="75"/>
-                                        <color key="backgroundColor" name="OTPTextFieldColor"/>
+                                        <color key="backgroundColor" name="TextFieldColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="75" id="eWk-Me-Lcv"/>
-                                            <constraint firstAttribute="height" constant="75" id="fAb-XD-cKQ"/>
+                                            <constraint firstAttribute="width" constant="75" id="R7f-uJ-gj1"/>
+                                            <constraint firstAttribute="height" constant="75" id="UYN-0Y-pB0"/>
                                         </constraints>
                                         <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -94,36 +94,36 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="wQB-2G-Rpg"/>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" name="BGOTPScreenColor"/>
                         <constraints>
-                            <constraint firstItem="wQB-2G-Rpg" firstAttribute="trailing" secondItem="3Lr-II-c1X" secondAttribute="trailing" constant="17" id="3e5-wf-Ey6"/>
-                            <constraint firstItem="2SY-Gd-uwC" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="wQB-2G-Rpg" secondAttribute="leading" constant="30" id="4In-Fi-8MR"/>
-                            <constraint firstItem="gOe-De-ueK" firstAttribute="leading" secondItem="wQB-2G-Rpg" secondAttribute="leading" constant="10" id="4yq-Mk-BAN"/>
-                            <constraint firstItem="2SY-Gd-uwC" firstAttribute="top" secondItem="gOe-De-ueK" secondAttribute="bottom" constant="80" id="DrM-4b-IEj"/>
-                            <constraint firstItem="0jB-X7-qeO" firstAttribute="top" secondItem="3Lr-II-c1X" secondAttribute="bottom" constant="50" id="M3X-nF-p6N"/>
-                            <constraint firstItem="3Lr-II-c1X" firstAttribute="leading" secondItem="wQB-2G-Rpg" secondAttribute="leading" constant="16" id="QY8-JX-Zf2"/>
-                            <constraint firstItem="wQB-2G-Rpg" firstAttribute="trailing" secondItem="0jB-X7-qeO" secondAttribute="trailing" constant="40" id="ZcY-lV-ttD"/>
-                            <constraint firstItem="wQB-2G-Rpg" firstAttribute="trailing" secondItem="gOe-De-ueK" secondAttribute="trailing" constant="10" id="ZkM-pS-aMk"/>
-                            <constraint firstItem="2SY-Gd-uwC" firstAttribute="centerX" secondItem="pwC-8V-cXV" secondAttribute="centerX" id="kYP-t8-BqX"/>
-                            <constraint firstItem="0jB-X7-qeO" firstAttribute="leading" secondItem="wQB-2G-Rpg" secondAttribute="leading" constant="40" id="llK-xX-mnl"/>
-                            <constraint firstItem="wQB-2G-Rpg" firstAttribute="bottom" secondItem="0jB-X7-qeO" secondAttribute="bottom" constant="80" id="smS-89-Hy0"/>
-                            <constraint firstItem="gOe-De-ueK" firstAttribute="top" secondItem="wQB-2G-Rpg" secondAttribute="top" constant="20" id="wa5-A8-0pR"/>
-                            <constraint firstItem="wQB-2G-Rpg" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="2SY-Gd-uwC" secondAttribute="trailing" constant="60" id="wse-OE-0me"/>
-                            <constraint firstItem="gOe-De-ueK" firstAttribute="centerX" secondItem="pwC-8V-cXV" secondAttribute="centerX" id="ynq-jJ-0Ae"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="vZG-TZ-io8" secondAttribute="bottom" constant="80" id="094-WD-TQe"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="YCR-hn-SqT" secondAttribute="trailing" constant="17" id="6gV-YF-NlG"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="A3p-8a-dLL" secondAttribute="trailing" constant="10" id="8ha-LE-DXJ"/>
+                            <constraint firstItem="YCR-hn-SqT" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="EVX-Do-KIz"/>
+                            <constraint firstItem="eIb-lB-u0Z" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="H9i-d4-dVS"/>
+                            <constraint firstItem="A3p-8a-dLL" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="10" id="ISn-ae-F2N"/>
+                            <constraint firstItem="vZG-TZ-io8" firstAttribute="top" secondItem="YCR-hn-SqT" secondAttribute="bottom" constant="50" id="LUV-Kz-AKf"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="vZG-TZ-io8" secondAttribute="trailing" constant="40" id="Nrg-2w-k35"/>
+                            <constraint firstItem="eIb-lB-u0Z" firstAttribute="top" secondItem="A3p-8a-dLL" secondAttribute="bottom" constant="80" id="eOz-nk-m1R"/>
+                            <constraint firstItem="A3p-8a-dLL" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="gbO-3x-9DC"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="eIb-lB-u0Z" secondAttribute="trailing" constant="60" id="gy6-pZ-Hp8"/>
+                            <constraint firstItem="eIb-lB-u0Z" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="30" id="hQq-VY-Kb6"/>
+                            <constraint firstItem="vZG-TZ-io8" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="40" id="kt5-eF-mR9"/>
+                            <constraint firstItem="A3p-8a-dLL" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="z0f-Z4-6nD"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="OTPFirstTextField" destination="MEe-Y6-enw" id="sK7-zW-LxS"/>
-                        <outlet property="OTPFourthTextField" destination="ZAb-Pj-7R3" id="sdI-bD-oYA"/>
-                        <outlet property="OTPSecondTextField" destination="uHq-12-cXf" id="33o-V7-Ged"/>
-                        <outlet property="OTPThirdTextField" destination="KFM-uu-XkO" id="Ldl-WK-46p"/>
-                        <outlet property="createAccountOTPButton" destination="0jB-X7-qeO" id="BSi-Za-t9F"/>
+                        <outlet property="OTPFirstTextField" destination="Omm-3E-2O3" id="stc-Xf-4gF"/>
+                        <outlet property="OTPFourthTextField" destination="78A-t7-FBg" id="y8E-Q9-RTL"/>
+                        <outlet property="OTPSecondTextField" destination="cHH-ee-vHG" id="S3U-G0-zpB"/>
+                        <outlet property="OTPThirdTextField" destination="de3-3W-zBm" id="4M5-ZV-5ec"/>
+                        <outlet property="createAccountOTPButton" destination="vZG-TZ-io8" id="OtC-Fv-eBa"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4sj-xk-yL3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2" y="-266"/>
+            <point key="canvasLocation" x="104.65116279069767" y="-265.23605150214593"/>
         </scene>
     </scenes>
     <resources>
@@ -131,10 +131,13 @@
         <namedColor name="BGOTPScreenColor">
             <color red="0.062745098039215685" green="0.0039215686274509803" blue="0.0039215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+        <namedColor name="LabelTextColor">
+            <color red="0.85490196078431369" green="0.82745098039215681" blue="0.50196078431372548" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="OTPLabelTextColor">
             <color red="0.85490196078431369" green="0.82745098039215681" blue="0.50196078431372548" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <namedColor name="OTPTextFieldColor">
+        <namedColor name="TextFieldColor">
             <color red="0.2196078431372549" green="0.019607843137254902" blue="0.011764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
