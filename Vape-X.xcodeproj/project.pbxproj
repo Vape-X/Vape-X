@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B3BF0E3228DBEA5D006FE203 /* OTPScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BF0E3128DBEA5D006FE203 /* OTPScreenViewController.swift */; };
-		B3BF0E3428DBEC4C006FE203 /* OTPScreenStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3BF0E3328DBEC4C006FE203 /* OTPScreenStoryboard.storyboard */; };
+		B3BF0E3828DBF0D6006FE203 /* OTPScreenStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3BF0E3728DBF0D6006FE203 /* OTPScreenStoryboard.storyboard */; };
 		E0BAC3E328D7C22800EF9B13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC3E228D7C22800EF9B13 /* AppDelegate.swift */; };
 		E0BAC3E528D7C22800EF9B13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC3E428D7C22800EF9B13 /* SceneDelegate.swift */; };
 		E0BAC3E728D7C22800EF9B13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC3E628D7C22800EF9B13 /* ViewController.swift */; };
@@ -39,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		B3BF0E3128DBEA5D006FE203 /* OTPScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPScreenViewController.swift; sourceTree = "<group>"; };
-		B3BF0E3328DBEC4C006FE203 /* OTPScreenStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OTPScreenStoryboard.storyboard; sourceTree = "<group>"; };
+		B3BF0E3728DBF0D6006FE203 /* OTPScreenStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OTPScreenStoryboard.storyboard; sourceTree = "<group>"; };
 		E0BAC3DF28D7C22800EF9B13 /* Vape-X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vape-X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0BAC3E228D7C22800EF9B13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0BAC3E428D7C22800EF9B13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,8 +108,8 @@
 				E0BAC3E428D7C22800EF9B13 /* SceneDelegate.swift */,
 				E0BAC3E628D7C22800EF9B13 /* ViewController.swift */,
 				E0BAC3E828D7C22800EF9B13 /* Main.storyboard */,
-				B3BF0E3328DBEC4C006FE203 /* OTPScreenStoryboard.storyboard */,
 				E0BAC3EB28D7C22900EF9B13 /* Assets.xcassets */,
+				B3BF0E3728DBF0D6006FE203 /* OTPScreenStoryboard.storyboard */,
 				E0BAC3ED28D7C22900EF9B13 /* LaunchScreen.storyboard */,
 				E0BAC3F028D7C22900EF9B13 /* Info.plist */,
 			);
@@ -238,8 +238,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0BAC3EF28D7C22900EF9B13 /* LaunchScreen.storyboard in Resources */,
-				B3BF0E3428DBEC4C006FE203 /* OTPScreenStoryboard.storyboard in Resources */,
 				E0BAC3EC28D7C22900EF9B13 /* Assets.xcassets in Resources */,
+				B3BF0E3828DBF0D6006FE203 /* OTPScreenStoryboard.storyboard in Resources */,
 				E0BAC3EA28D7C22800EF9B13 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
