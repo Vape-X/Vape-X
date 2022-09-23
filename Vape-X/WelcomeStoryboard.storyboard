@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6Tq-aq-M9j">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Welcome Screen View Controller-->
+        <!--Welcome View Controller-->
         <scene sceneID="3kq-Vz-Efg">
             <objects>
-                <viewController id="6Tq-aq-M9j" customClass="WelcomeScreenViewController" customModule="Vape_X" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="6Tq-aq-M9j" customClass="WelcomeViewController" customModule="Vape_X" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Sey-qJ-jjW">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -52,6 +52,7 @@
                                 <connections>
                                     <action selector="CreateAccountButton:" destination="6Tq-aq-M9j" eventType="touchUpInside" id="8mr-dq-7yA"/>
                                     <action selector="CreateAccountButton:" destination="HAI-MU-vgj" eventType="touchUpInside" id="f9F-j2-dBr"/>
+                                    <action selector="createAccount:" destination="6Tq-aq-M9j" eventType="touchUpInside" id="pdm-Mi-F1f"/>
                                     <action selector="createAccountButton:" destination="HAI-MU-vgj" eventType="touchUpInside" id="64l-sN-HC2"/>
                                 </connections>
                             </button>
@@ -75,6 +76,7 @@
                                 <connections>
                                     <action selector="LogInButton:" destination="HAI-MU-vgj" eventType="touchUpInside" id="4UG-d3-pXG"/>
                                     <action selector="LogInButton:" destination="6Tq-aq-M9j" eventType="touchUpInside" id="wwx-7x-cl1"/>
+                                    <action selector="login:" destination="6Tq-aq-M9j" eventType="touchUpInside" id="HwS-we-o5o"/>
                                 </connections>
                             </button>
                         </subviews>
