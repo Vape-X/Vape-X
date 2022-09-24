@@ -7,12 +7,13 @@
 
 import UIKit
 
-class LoginPageViewController: UIViewController {
+class CreateAccountController: UIViewController {
 
     @IBOutlet weak var usernameFeild: UITextField!
     @IBOutlet weak var emailFeild: UITextField!
     @IBOutlet weak var phoneNumberFeild: UITextField!
-    @IBOutlet weak var passwordTextField: UILabel!
+    @IBOutlet weak var passwardLabel: UILabel!
+    @IBOutlet weak var passwordTextfield: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
