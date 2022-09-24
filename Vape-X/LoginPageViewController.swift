@@ -9,18 +9,18 @@ import UIKit
 
 class LoginPageViewController: UIViewController {
 
-    @IBOutlet weak var username: UITextField!
-    @IBOutlet weak var email: UITextField!
-    @IBOutlet weak var phoneNumber: UITextField!
-    @IBOutlet weak var password: UILabel!
+    @IBOutlet weak var usernameFeild: UITextField!
+    @IBOutlet weak var emailFeild: UITextField!
+    @IBOutlet weak var phoneNumberFeild: UITextField!
+    @IBOutlet weak var passwordTextField: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
-    @IBAction func next(_ sender: Any) {
+    @IBAction func nextButton(_ sender: Any) {
     }
     
-    @IBAction func login(_ sender: Any) {
+    @IBAction func loginButton(_ sender: Any) {
     }
 }
