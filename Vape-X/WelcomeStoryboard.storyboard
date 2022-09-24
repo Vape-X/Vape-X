@@ -50,9 +50,8 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="CreateAccountButton:" destination="6Tq-aq-M9j" eventType="touchUpInside" id="8mr-dq-7yA"/>
                                     <action selector="CreateAccountButton:" destination="HAI-MU-vgj" eventType="touchUpInside" id="f9F-j2-dBr"/>
-                                    <action selector="createAccount:" destination="6Tq-aq-M9j" eventType="touchUpInside" id="pdm-Mi-F1f"/>
+                                    <action selector="createAccount:" destination="6Tq-aq-M9j" eventType="touchUpInside" id="kXt-tN-MJV"/>
                                     <action selector="createAccountButton:" destination="HAI-MU-vgj" eventType="touchUpInside" id="64l-sN-HC2"/>
                                 </connections>
                             </button>
@@ -75,8 +74,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="LogInButton:" destination="HAI-MU-vgj" eventType="touchUpInside" id="4UG-d3-pXG"/>
-                                    <action selector="LogInButton:" destination="6Tq-aq-M9j" eventType="touchUpInside" id="wwx-7x-cl1"/>
-                                    <action selector="login:" destination="6Tq-aq-M9j" eventType="touchUpInside" id="HwS-we-o5o"/>
+                                    <action selector="LoginButton:" destination="6Tq-aq-M9j" eventType="touchUpInside" id="QnE-WT-x0N"/>
                                 </connections>
                             </button>
                         </subviews>

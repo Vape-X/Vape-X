@@ -16,6 +16,7 @@ class WelcomeViewController: UIViewController {
     @IBAction func createAccount(_ sender: Any) {
     }
     
-    @IBAction func login(_ sender: Any) {
+   
+    @IBAction func LoginButton(_ sender: Any) {
     }
 }
