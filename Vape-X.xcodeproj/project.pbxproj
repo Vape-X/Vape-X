@@ -24,6 +24,8 @@
 		AFAA502C28DD4CCA005714DE /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAA502B28DD4CCA005714DE /* WelcomeViewController.swift */; };
 		9839F0BC28DCB60F001DE443 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9839F0BB28DCB60F001DE443 /* LoginViewController.swift */; };
 		98BC85B128DCDC3800C3FBC8 /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98BC85B028DCDC3800C3FBC8 /* LoginStoryboard.storyboard */; };
+		4270DAB828DD2782002FE468 /* LogInPageStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4270DAB728DD2782002FE468 /* LogInPageStoryBoard.storyboard */; };
+		4270DABA28DD27EE002FE468 /* CreateAccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4270DAB928DD27EE002FE468 /* CreateAccountController.swift */; };
 		E0BAC3E328D7C22800EF9B13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC3E228D7C22800EF9B13 /* AppDelegate.swift */; };
 		E0BAC3E528D7C22800EF9B13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC3E428D7C22800EF9B13 /* SceneDelegate.swift */; };
 		E0BAC3E728D7C22800EF9B13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC3E628D7C22800EF9B13 /* ViewController.swift */; };
@@ -62,6 +64,8 @@
 		AFAA502B28DD4CCA005714DE /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		9839F0BB28DCB60F001DE443 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		98BC85B028DCDC3800C3FBC8 /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
+		4270DAB728DD2782002FE468 /* LogInPageStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LogInPageStoryBoard.storyboard; sourceTree = "<group>"; };
+		4270DAB928DD27EE002FE468 /* CreateAccountController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountController.swift; sourceTree = "<group>"; };
 		E0BAC3DF28D7C22800EF9B13 /* Vape-X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vape-X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0BAC3E228D7C22800EF9B13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0BAC3E428D7C22800EF9B13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -139,6 +143,8 @@
 		E0BAC3E128D7C22800EF9B13 /* Vape-X */ = {
 			isa = PBXGroup;
 			children = (
+				4270DAB928DD27EE002FE468 /* CreateAccountController.swift */,
+				4270DAB728DD2782002FE468 /* LogInPageStoryBoard.storyboard */,
 				E0BAC3E228D7C22800EF9B13 /* AppDelegate.swift */,
 				E0BAC3E428D7C22800EF9B13 /* SceneDelegate.swift */,
 				AF0583F628DBF6A8005B79A9 /* WelcomeStoryboard.storyboard */,
@@ -298,6 +304,7 @@
 				30B1D85628DABFF70019B37F /* GoogleService-Info.plist in Resources */,
 				E0BAC3EC28D7C22900EF9B13 /* Assets.xcassets in Resources */,
 				B3BF0E3828DBF0D6006FE203 /* OTPScreenStoryboard.storyboard in Resources */,
+				4270DAB828DD2782002FE468 /* LogInPageStoryBoard.storyboard in Resources */,
 				E0BAC3EA28D7C22800EF9B13 /* Main.storyboard in Resources */,
 				AF0583F728DBF6A8005B79A9 /* WelcomeStoryboard.storyboard in Resources */,
 			);
@@ -353,6 +360,7 @@
 				E0BAC3E728D7C22800EF9B13 /* ViewController.swift in Sources */,
 				AFAA502C28DD4CCA005714DE /* WelcomeViewController.swift in Sources */,
 				E0BAC3E328D7C22800EF9B13 /* AppDelegate.swift in Sources */,
+				4270DABA28DD27EE002FE468 /* CreateAccountController.swift in Sources */,
 				E0BAC3E528D7C22800EF9B13 /* SceneDelegate.swift in Sources */,
 				9839F0BC28DCB60F001DE443 /* LoginViewController.swift in Sources */,
 			);
