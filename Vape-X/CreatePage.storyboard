@@ -10,7 +10,7 @@
         <!--Create Account Controller-->
         <scene sceneID="klx-dJ-X3e">
             <objects>
-                <viewController id="eha-0f-Wb3" customClass="CreateAccountController" customModule="Vape_X" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CreatePage" id="eha-0f-Wb3" customClass="CreateAccountController" customModule="Vape_X" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" opaque="NO" contentMode="scaleToFill" id="YcP-X8-8Sc">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

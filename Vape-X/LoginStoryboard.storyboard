@@ -11,7 +11,7 @@
         <!--Login View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController storyboardIdentifier="LoginViewController" id="Y6W-OH-hqX" customClass="LoginViewController" customModule="Vape_X" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginStoryboard" id="Y6W-OH-hqX" customClass="LoginViewController" customModule="Vape_X" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -220,7 +220,7 @@
                                         <rect key="frame" x="30" y="510" width="315" height="30"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Log in with" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QNa-5g-zaL">
-                                                <rect key="frame" x="124.66666666666666" y="7.3333333333333712" width="65.666666666666657" height="15.666666666666664"/>
+                                                <rect key="frame" x="124.66666666666666" y="7.3333333333333703" width="65.666666666666657" height="15.666666666666664"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                 <color key="textColor" red="0.85490196939999996" green="0.79607844350000001" blue="0.52549022440000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
