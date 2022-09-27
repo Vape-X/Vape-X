@@ -27,8 +27,8 @@ class CreateAccountController: UIViewController {
     }
     
     @IBAction func loginButton(_ sender: Any) {
-        let storyboard = UIStoryboard(name: "LoginStoryboard", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "LoginStoryboard")
+        let storyboard = UIStoryboard(name: "LoginPage", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "LoginPage")
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }
