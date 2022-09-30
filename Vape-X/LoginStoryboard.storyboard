@@ -117,7 +117,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="315" height="70"/>
                                                 <color key="backgroundColor" red="0.21960783" green="0.019607843829999999" blue="0.01176470611" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="alphabet" secureTextEntry="YES"/>
                                             </textField>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kmw-e9-CzD">
                                                 <rect key="frame" x="23" y="25" width="20" height="20"/>
@@ -220,7 +220,7 @@
                                         <rect key="frame" x="30" y="510" width="315" height="30"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Log in with" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QNa-5g-zaL">
-                                                <rect key="frame" x="124.66666666666666" y="7.3333333333333712" width="65.666666666666657" height="15.666666666666664"/>
+                                                <rect key="frame" x="124.66666666666666" y="7.3333333333333703" width="65.666666666666657" height="15.666666666666664"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                 <color key="textColor" red="0.85490196939999996" green="0.79607844350000001" blue="0.52549022440000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
