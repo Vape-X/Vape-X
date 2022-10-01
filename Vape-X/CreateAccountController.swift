@@ -8,10 +8,10 @@ import UIKit
 
 class CreateAccountController: UIViewController {
     
-    @IBOutlet weak var usernameFeild: UITextField!
-    @IBOutlet weak var emailFeild: UITextField!
-    @IBOutlet weak var phoneNumberFeild: UITextField!
-    @IBOutlet weak var passwardLabel: UILabel!
+    @IBOutlet weak var userNameTextField: UITextField!
+    @IBOutlet weak var emailAddressTextField: UITextField!
+    @IBOutlet weak var phoneNumberTextField: UITextField!
+    @IBOutlet weak var passwordLabel: UILabel!
     @IBOutlet weak var passwordTextfield: UITextField!
     @IBOutlet weak var nextButtonOutlet: UIButton!
     
@@ -31,7 +31,7 @@ class CreateAccountController: UIViewController {
     func securePassword() {
         passwordTextfield.isSecureTextEntry = true
         passwordTextfield.keyboardType = .asciiCapable
-        phoneNumberFeild.keyboardType = .asciiCapableNumberPad
+        phoneNumberTextField.keyboardType = .asciiCapableNumberPad
     }
     
     func hideKeyboardWhenTappedAround() {
@@ -46,45 +46,26 @@ class CreateAccountController: UIViewController {
     
     func setupAddTargetIsNotEmptyTextFields() {
         nextButtonOutlet.isEnabled = false
-        usernameFeild.addTarget(self, action: #selector(textFieldsIsNotEmpty),for: .editingChanged)
-        emailFeild.addTarget(self, action: #selector(textFieldsIsNotEmpty),for: .editingChanged)
-        phoneNumberFeild.addTarget(self, action: #selector(textFieldsIsNotEmpty),for: .editingChanged)
+        userNameTextField.addTarget(self, action: #selector(textFieldsIsNotEmpty),for: .editingChanged)
+        emailAddressTextField.addTarget(self, action: #selector(textFieldsIsNotEmpty),for: .editingChanged)
+        phoneNumberTextField.addTarget(self, action: #selector(testing),for: .editingChanged)
         passwordTextfield.addTarget(self, action: #selector(textFieldsIsNotEmpty),for: .editingChanged)
     }
     
     @objc func textFieldsIsNotEmpty(sender: UITextField) {
         sender.text = sender.text?.trimmingCharacters(in: .whitespaces)
-        guard let usernameText = usernameFeild.text, !usernameText.isEmpty, let emailAddressText = emailFeild.text, emailAddressText.isValidEmail, let phoneNumberText = phoneNumberFeild.text, let passWordText = passwordTextfield.text, passWordText.isValidPassword()
+        guard let usernameText = userNameTextField.text, !usernameText.isEmpty, let emailAddressText = emailAddressTextField.text, emailAddressText.isValidEmail, let phoneNumberText = phoneNumberTextField.text, let passWordText = passwordTextfield.text, passWordText.isValidPassword()
         else { self.nextButtonOutlet.isEnabled = false
             return }
-        if phoneNumberFeild.text?.count == 10 {
-            phoneNumberFeild.text = phoneNumberText.applyPatternOnNumbers(pattern: "(###)###-####", replacementCharacter: "#")
-            phoneNumberFeild.resignFirstResponder()
             nextButtonOutlet.isEnabled = true
+    }
+    
+   @objc func testing(sender: UITextField) {
+        if phoneNumberTextField.text?.count == 10 {
+            if let phoneNumberText = phoneNumberTextField.text {
+                phoneNumberTextField.text = phoneNumberText.applyPatternOnNumbers(pattern: "(###)###-####", replacementCharacter: "#")
+                passwordTextfield.becomeFirstResponder()
+            }
         }
-    }
-}
-
-extension String {
-    
-    var isValidEmail: Bool {
-        NSPredicate(format: "SELF MATCHES %@", "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}").evaluate(with: self)
-    }
-    
-    func isValidPassword() -> Bool {
-        let passwordRegex = "^(?=.*[!@#$&*])(?=.*[0-9]).{6,}$"
-        return NSPredicate(format: "SELF MATCHES %@", passwordRegex).evaluate(with: self)
-    }
-    
-    func applyPatternOnNumbers(pattern: String, replacementCharacter: Character) -> String {
-        var pureNumber = self.replacingOccurrences( of: "[^0-9]", with: "", options: .regularExpression)
-        for index in 0 ..< pattern.count {
-            guard index < pureNumber.count else { return pureNumber }
-            let stringIndex = String.Index(utf16Offset: index, in: pattern)
-            let patternCharacter = pattern[stringIndex]
-            guard patternCharacter != replacementCharacter else { continue }
-            pureNumber.insert(patternCharacter, at: stringIndex)
-        }
-        return pureNumber
     }
 }
