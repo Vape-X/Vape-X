@@ -9,6 +9,9 @@ import UIKit
 
 class LoginViewController: UIViewController {
     
+    var mocUser: String = "test"
+    var mocPassword: String = "passWord12$"
+    
     @IBOutlet weak var txtfieldUsername: UITextField!
     @IBOutlet weak var txtfieldPassword: UITextField!
     @IBAction func forgotPasswordButton(_ sender: UIButton) {
@@ -30,11 +33,24 @@ class LoginViewController: UIViewController {
     
     func unWrapTextField() {
         if let userNameText = txtfieldUsername.text, let passwordText = txtfieldPassword.text {
-            if passwordText.validPassword(){
-                txtfieldPassword.layer.borderColor = UIColor.clear.cgColor
+            if passwordText.validPassword() {
+                if txtfieldUsername.text == mocUser && txtfieldPassword.text == mocPassword {
+                    txtfieldUsername.layer.borderColor = UIColor.clear.cgColor
+                    txtfieldPassword.layer.borderColor = UIColor.clear.cgColor
+                } else {
+                    txtfieldUsername.layer.borderColor = UIColor.red.cgColor
+                    txtfieldUsername.layer.borderWidth = 1.0
+                    txtfieldPassword.layer.borderColor = UIColor.red.cgColor
+                    txtfieldPassword.layer.borderWidth = 1.0
+                    txtfieldUsername.shake()
+                    txtfieldPassword.shake()
+                }
             } else {
+                txtfieldUsername.layer.borderColor = UIColor.red.cgColor
+                txtfieldUsername.layer.borderWidth = 1.0
                 txtfieldPassword.layer.borderColor = UIColor.red.cgColor
                 txtfieldPassword.layer.borderWidth = 1.0
+                txtfieldUsername.shake()
                 txtfieldPassword.shake()
             }
         }
