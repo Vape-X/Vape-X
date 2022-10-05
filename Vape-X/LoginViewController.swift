@@ -18,6 +18,7 @@ class LoginViewController: UIViewController {
     }
     @IBAction func loginButton(_ sender: UIButton) {
         unWrapTextField()
+        checkMocUserAndPassword()
     }
     @IBAction func facebookButton(_ sender: UIButton) {
     }
@@ -31,20 +32,15 @@ class LoginViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
     func unWrapTextField() {
         if let userNameText = txtfieldUsername.text, let passwordText = txtfieldPassword.text {
-            if passwordText.validPassword() {
-                if txtfieldUsername.text == mocUser && txtfieldPassword.text == mocPassword {
-                    txtfieldUsername.layer.borderColor = UIColor.clear.cgColor
-                    txtfieldPassword.layer.borderColor = UIColor.clear.cgColor
-                } else {
-                    txtfieldUsername.layer.borderColor = UIColor.red.cgColor
-                    txtfieldUsername.layer.borderWidth = 1.0
-                    txtfieldPassword.layer.borderColor = UIColor.red.cgColor
-                    txtfieldPassword.layer.borderWidth = 1.0
-                    txtfieldUsername.shake()
-                    txtfieldPassword.shake()
-                }
+            if userNameText.validUser() && passwordText.validPassword() {
+                txtfieldUsername.layer.borderColor = UIColor.clear.cgColor
+                txtfieldPassword.layer.borderColor = UIColor.clear.cgColor
             } else {
                 txtfieldUsername.layer.borderColor = UIColor.red.cgColor
                 txtfieldUsername.layer.borderWidth = 1.0
@@ -53,6 +49,20 @@ class LoginViewController: UIViewController {
                 txtfieldUsername.shake()
                 txtfieldPassword.shake()
             }
+        }
+    }
+    
+    func checkMocUserAndPassword(){
+        if txtfieldUsername.text == mocUser && txtfieldPassword.text == mocPassword {
+            txtfieldUsername.layer.borderColor = UIColor.clear.cgColor
+            txtfieldPassword.layer.borderColor = UIColor.clear.cgColor
+        } else {
+            txtfieldUsername.layer.borderColor = UIColor.red.cgColor
+            txtfieldUsername.layer.borderWidth = 1.0
+            txtfieldPassword.layer.borderColor = UIColor.red.cgColor
+            txtfieldPassword.layer.borderWidth = 1.0
+            txtfieldUsername.shake()
+            txtfieldPassword.shake()
         }
     }
 }
@@ -70,9 +80,12 @@ extension UITextField {
 }
 
 extension String{
-    
+    func validUser() -> Bool {
+        let passwordRegex = "^(?=.*[0-9]).{6,}$"
+        return NSPredicate(format: "SELF MATCHES %@", passwordRegex).evaluate(with: self)
+    }
     func validPassword() -> Bool {
-            let passwordRegex = "^(?=.*[!@#$&*])(?=.*[0-9]).{6,}$"
-            return NSPredicate(format: "SELF MATCHES %@", passwordRegex).evaluate(with: self)
-        }
+        let passwordRegex = "^(?=.*[!@#$&*])(?=.*[0-9]).{6,}$"
+        return NSPredicate(format: "SELF MATCHES %@", passwordRegex).evaluate(with: self)
+    }
 }
