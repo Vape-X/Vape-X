@@ -18,6 +18,11 @@ extension String {
         return NSPredicate(format: "SELF MATCHES %@", passwordRegex).evaluate(with: self)
     }
     
+    func isValidUsername() -> Bool {
+        let usernameRegEx = "\\w{5,18}"
+        return NSPredicate(format: "SELF MATCHES %@", usernameRegEx).evaluate(with: self)
+    }
+    
     func applyPatternOnNumbers(pattern: String, replacementCharacter: Character) -> String {
         var pureNumber = self.replacingOccurrences( of: "[^0-9]", with: "", options: .regularExpression)
         for index in 0 ..< pattern.count {

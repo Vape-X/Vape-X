@@ -30,6 +30,8 @@ class CreateAccountController: UIViewController {
     
     func securePassword() {
         passwordTextfield.isSecureTextEntry = true
+        emailAddressTextField.keyboardType = .asciiCapable
+        userNameTextField.keyboardType = .asciiCapable
         passwordTextfield.keyboardType = .asciiCapable
         phoneNumberTextField.keyboardType = .asciiCapableNumberPad
     }
@@ -54,7 +56,7 @@ class CreateAccountController: UIViewController {
     
     @objc func textFieldsIsNotEmpty(sender: UITextField) {
         sender.text = sender.text?.trimmingCharacters(in: .whitespaces)
-        guard let usernameText = userNameTextField.text, !usernameText.isEmpty, let emailAddressText = emailAddressTextField.text, emailAddressText.isValidEmail, let phoneNumberText = phoneNumberTextField.text, let passWordText = passwordTextfield.text, passWordText.isValidPassword()
+        guard let usernameText = userNameTextField.text, usernameText.isValidUsername(), let emailAddressText = emailAddressTextField.text, emailAddressText.isValidEmail, let phoneNumberText = phoneNumberTextField.text, let passWordText = passwordTextfield.text, passWordText.isValidPassword()
         else { self.nextButtonOutlet.isEnabled = false
             return }
             nextButtonOutlet.isEnabled = true
