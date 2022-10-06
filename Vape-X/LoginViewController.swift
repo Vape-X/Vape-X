@@ -18,7 +18,6 @@ class LoginViewController: UIViewController {
     }
     @IBAction func loginButton(_ sender: UIButton) {
         unWrapTextField()
-        checkMocUserAndPassword()
     }
     @IBAction func facebookButton(_ sender: UIButton) {
     }
@@ -39,17 +38,9 @@ class LoginViewController: UIViewController {
     func unWrapTextField() {
         if let userNameText = txtfieldUsername.text, let passwordText = txtfieldPassword.text {
             if userNameText.validUser() && passwordText.validPassword() {
-                ifCorrect()
-            } else {
-                ifWrong()
-            }
-        }
-    }
-    
-    func checkMocUserAndPassword(){
-        if let userNameText = txtfieldUsername.text, let passwordText = txtfieldPassword.text {
-            if userNameText == mocUser && passwordText == mocPassword {
-                ifCorrect()
+                if userNameText == mocUser && passwordText == mocPassword {
+                    ifCorrect()
+                }
             } else {
                 ifWrong()
             }
@@ -59,6 +50,8 @@ class LoginViewController: UIViewController {
     func ifCorrect() {
         txtfieldUsername.layer.borderColor = UIColor.clear.cgColor
         txtfieldPassword.layer.borderColor = UIColor.clear.cgColor
+        txtfieldUsername.text?.removeAll()
+        txtfieldPassword.text?.removeAll()
     }
     
     func ifWrong() {
