@@ -23,6 +23,7 @@ class CreateAccountController: UIViewController {
     }
     
     @IBAction func nextButton(_ sender: Any) {
+        emptyTextField()
     }
     
     @IBAction func loginButton(_ sender: Any) {
@@ -69,5 +70,12 @@ class CreateAccountController: UIViewController {
                 passwordTextfield.becomeFirstResponder()
             }
         }
+    }
+    
+    func emptyTextField() {
+        userNameTextField.text?.removeAll()
+        emailAddressTextField.text?.removeAll()
+        phoneNumberTextField.text?.removeAll()
+        passwordTextfield.text?.removeAll()
     }
 }
