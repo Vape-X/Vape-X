@@ -9,7 +9,7 @@ import UIKit
 
 class LoginViewController: UIViewController {
     
-    var mocUser: String = "test"
+    var mocUser: String = "test99"
     var mocPassword: String = "passWord12$"
     
     @IBOutlet weak var txtfieldUsername: UITextField!
@@ -39,53 +39,36 @@ class LoginViewController: UIViewController {
     func unWrapTextField() {
         if let userNameText = txtfieldUsername.text, let passwordText = txtfieldPassword.text {
             if userNameText.validUser() && passwordText.validPassword() {
-                txtfieldUsername.layer.borderColor = UIColor.clear.cgColor
-                txtfieldPassword.layer.borderColor = UIColor.clear.cgColor
+                ifCorrect()
             } else {
-                txtfieldUsername.layer.borderColor = UIColor.red.cgColor
-                txtfieldUsername.layer.borderWidth = 1.0
-                txtfieldPassword.layer.borderColor = UIColor.red.cgColor
-                txtfieldPassword.layer.borderWidth = 1.0
-                txtfieldUsername.shake()
-                txtfieldPassword.shake()
+                ifWrong()
             }
         }
     }
     
     func checkMocUserAndPassword(){
-        if txtfieldUsername.text == mocUser && txtfieldPassword.text == mocPassword {
-            txtfieldUsername.layer.borderColor = UIColor.clear.cgColor
-            txtfieldPassword.layer.borderColor = UIColor.clear.cgColor
-        } else {
-            txtfieldUsername.layer.borderColor = UIColor.red.cgColor
-            txtfieldUsername.layer.borderWidth = 1.0
-            txtfieldPassword.layer.borderColor = UIColor.red.cgColor
-            txtfieldPassword.layer.borderWidth = 1.0
-            txtfieldUsername.shake()
-            txtfieldPassword.shake()
+        if let userNameText = txtfieldUsername.text, let passwordText = txtfieldPassword.text {
+            if userNameText == mocUser && passwordText == mocPassword {
+                ifCorrect()
+            } else {
+                ifWrong()
+            }
         }
     }
-}
-
-extension UITextField {
-    func shake() {
-        let animation = CABasicAnimation(keyPath: "position")
-        animation.duration = 0.05
-        animation.repeatCount = 5
-        animation.autoreverses = true
-        animation.fromValue = CGPoint(x: self.center.x - 4.0, y: self.center.y)
-        animation.toValue = CGPoint(x: self.center.x + 4.0, y: self.center.y)
-        layer.add(animation, forKey: "position")
+    
+    func ifCorrect() {
+        txtfieldUsername.layer.borderColor = UIColor.clear.cgColor
+        txtfieldPassword.layer.borderColor = UIColor.clear.cgColor
     }
-}
-
-extension String{
-    func validUser() -> Bool {
-        let passwordRegex = "^(?=.*[0-9]).{6,}$"
-        return NSPredicate(format: "SELF MATCHES %@", passwordRegex).evaluate(with: self)
-    }
-    func validPassword() -> Bool {
-        let passwordRegex = "^(?=.*[!@#$&*])(?=.*[0-9]).{6,}$"
-        return NSPredicate(format: "SELF MATCHES %@", passwordRegex).evaluate(with: self)
+    
+    func ifWrong() {
+        txtfieldUsername.layer.borderColor = UIColor.red.cgColor
+        txtfieldUsername.layer.borderWidth = 1.0
+        txtfieldPassword.layer.borderColor = UIColor.red.cgColor
+        txtfieldPassword.layer.borderWidth = 1.0
+        txtfieldUsername.shake()
+        txtfieldPassword.shake()
+        txtfieldUsername.text?.removeAll()
+        txtfieldPassword.text?.removeAll()
     }
 }
