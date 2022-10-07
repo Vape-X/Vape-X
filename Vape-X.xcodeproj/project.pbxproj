@@ -22,6 +22,7 @@
 		98BC85B128DCDC3800C3FBC8 /* LoginPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98BC85B028DCDC3800C3FBC8 /* LoginPage.storyboard */; };
 		AF0583F728DBF6A8005B79A9 /* Welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF0583F628DBF6A8005B79A9 /* Welcome.storyboard */; };
 		AFAA502C28DD4CCA005714DE /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAA502B28DD4CCA005714DE /* WelcomeViewController.swift */; };
+		B3A9220B28F0423B00C8E2FC /* RingSmoke.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B3A9220A28F0423B00C8E2FC /* RingSmoke.mp4 */; };
 		B3BF0E3228DBEA5D006FE203 /* OTPScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BF0E3128DBEA5D006FE203 /* OTPScreenViewController.swift */; };
 		B3BF0E3828DBF0D6006FE203 /* OTPScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3BF0E3728DBF0D6006FE203 /* OTPScreen.storyboard */; };
 		E0917DA128F0177F000BE320 /* LoginValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0917DA028F0177F000BE320 /* LoginValidation.swift */; };
@@ -62,6 +63,7 @@
 		98BC85B028DCDC3800C3FBC8 /* LoginPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginPage.storyboard; sourceTree = "<group>"; };
 		AF0583F628DBF6A8005B79A9 /* Welcome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Welcome.storyboard; sourceTree = "<group>"; };
 		AFAA502B28DD4CCA005714DE /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		B3A9220A28F0423B00C8E2FC /* RingSmoke.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = RingSmoke.mp4; sourceTree = "<group>"; };
 		B3BF0E3128DBEA5D006FE203 /* OTPScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPScreenViewController.swift; sourceTree = "<group>"; };
 		B3BF0E3728DBF0D6006FE203 /* OTPScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OTPScreen.storyboard; sourceTree = "<group>"; };
 		E0917DA028F0177F000BE320 /* LoginValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginValidation.swift; sourceTree = "<group>"; };
@@ -119,6 +121,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B3A9221028F0462C00C8E2FC /* AnimationVideo */ = {
+			isa = PBXGroup;
+			children = (
+				B3A9220A28F0423B00C8E2FC /* RingSmoke.mp4 */,
+			);
+			path = AnimationVideo;
+			sourceTree = "<group>";
+		};
 		E0BAC3D628D7C22800EF9B13 = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +167,7 @@
 				E0C60BD128F0142A004F75F8 /* StringExtension.swift */,
 				9839F0BB28DCB60F001DE443 /* LoginViewController.swift */,
 				B3BF0E3128DBEA5D006FE203 /* OTPScreenViewController.swift */,
+				B3A9221028F0462C00C8E2FC /* AnimationVideo */,
 				E0BAC3E628D7C22800EF9B13 /* ViewController.swift */,
 				AFAA502B28DD4CCA005714DE /* WelcomeViewController.swift */,
 				30B1D85528DABFF70019B37F /* GoogleService-Info.plist */,
@@ -186,7 +197,6 @@
 		E0C60BD428F0163E004F75F8 /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
-				23A3B8BD28EE57D500061CEE /* LoginValidateExtention.swift */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
@@ -310,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98BC85B128DCDC3800C3FBC8 /* LoginPage.storyboard in Resources */,
+				B3A9220B28F0423B00C8E2FC /* RingSmoke.mp4 in Resources */,
 				E0BAC3EF28D7C22900EF9B13 /* LaunchScreen.storyboard in Resources */,
 				30B1D85628DABFF70019B37F /* GoogleService-Info.plist in Resources */,
 				E0BAC3EC28D7C22900EF9B13 /* Assets.xcassets in Resources */,
@@ -366,7 +377,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23A3B8BE28EE57D500061CEE /* LoginValidateExtention.swift in Sources */,
 				B3BF0E3228DBEA5D006FE203 /* OTPScreenViewController.swift in Sources */,
 				E0BAC3E728D7C22800EF9B13 /* ViewController.swift in Sources */,
 				AFAA502C28DD4CCA005714DE /* WelcomeViewController.swift in Sources */,
