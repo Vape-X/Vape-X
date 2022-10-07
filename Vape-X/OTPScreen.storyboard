@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tray" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="YCR-hn-SqT">
-                                <rect key="frame" x="16" y="545" width="397" height="146"/>
+                                <rect key="frame" x="16" y="575" width="397" height="146"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="jzC-4c-9iq"/>
                                 </constraints>
@@ -32,9 +32,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vZG-TZ-io8">
-                                <rect key="frame" x="40" y="743" width="350" height="75"/>
+                                <rect key="frame" x="40" y="773" width="350" height="45"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="75" id="ebD-Qe-VN7"/>
+                                    <constraint firstAttribute="height" constant="45" id="ebD-Qe-VN7"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Create Account">

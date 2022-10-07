@@ -27,16 +27,16 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wAO-Z6-DkU">
-                                <rect key="frame" x="132" y="322" width="126" height="33.666666666666686"/>
+                                <rect key="frame" x="132" y="278" width="126" height="71.666666666666686"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="28"/>
                                 <color key="textColor" red="0.92156863209999995" green="0.85882353779999998" blue="0.47450977560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oSt-6x-Mn5">
-                                <rect key="frame" x="40" y="405.66666666666669" width="310" height="58"/>
+                                <rect key="frame" x="40" y="399.66666666666669" width="310" height="45"/>
                                 <color key="backgroundColor" red="0.92156863209999995" green="0.85882353779999998" blue="0.47450977560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="58" id="ZMc-VS-LmA"/>
+                                    <constraint firstAttribute="height" constant="45" id="ZMc-VS-LmA"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
                                 <color key="tintColor" red="0.92156863209999995" green="0.85882353779999998" blue="0.47450977560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -56,10 +56,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iao-xt-lBR">
-                                <rect key="frame" x="40" y="483.66666666666674" width="310" height="58"/>
+                                <rect key="frame" x="40" y="464.66666666666669" width="310" height="45"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="58" id="B84-gs-rlB"/>
+                                    <constraint firstAttribute="height" constant="45" id="B84-gs-rlB"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                 <color key="tintColor" red="0.92156863209999995" green="0.85882353779999998" blue="0.47450977560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -81,7 +81,9 @@
                         <viewLayoutGuide key="safeArea" id="hqw-Jg-WOT"/>
                         <color key="backgroundColor" name="vapeXRed"/>
                         <constraints>
+                            <constraint firstItem="oSt-6x-Mn5" firstAttribute="centerX" secondItem="Sey-qJ-jjW" secondAttribute="centerX" id="07W-PR-5vk"/>
                             <constraint firstItem="KMl-FN-yeP" firstAttribute="top" secondItem="hqw-Jg-WOT" secondAttribute="top" constant="51" id="2bL-d8-Zj6"/>
+                            <constraint firstItem="oSt-6x-Mn5" firstAttribute="centerY" secondItem="Sey-qJ-jjW" secondAttribute="centerY" id="4Ty-gQ-jv3"/>
                             <constraint firstItem="wAO-Z6-DkU" firstAttribute="top" secondItem="KMl-FN-yeP" secondAttribute="bottom" constant="10" id="5IR-Zj-ahp"/>
                             <constraint firstItem="KMl-FN-yeP" firstAttribute="centerX" secondItem="Sey-qJ-jjW" secondAttribute="centerX" id="HQA-Lj-kqs"/>
                             <constraint firstItem="oSt-6x-Mn5" firstAttribute="top" secondItem="wAO-Z6-DkU" secondAttribute="bottom" constant="50" id="JW5-fg-WgV"/>
@@ -94,6 +96,7 @@
                             <constraint firstItem="iao-xt-lBR" firstAttribute="top" secondItem="oSt-6x-Mn5" secondAttribute="bottom" constant="20" id="adB-qi-YEM"/>
                             <constraint firstAttribute="trailing" secondItem="KYS-gH-qKh" secondAttribute="trailing" id="epW-tb-zwU"/>
                             <constraint firstItem="oSt-6x-Mn5" firstAttribute="centerX" secondItem="Sey-qJ-jjW" secondAttribute="centerX" id="gEy-t4-6f6"/>
+                            <constraint firstItem="hqw-Jg-WOT" firstAttribute="trailing" secondItem="iao-xt-lBR" secondAttribute="trailing" constant="40" id="iXw-Tq-Q4j"/>
                             <constraint firstItem="wAO-Z6-DkU" firstAttribute="centerX" secondItem="Sey-qJ-jjW" secondAttribute="centerX" id="yDu-Un-tOR"/>
                         </constraints>
                     </view>
