@@ -117,7 +117,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="315" height="70"/>
                                                 <color key="backgroundColor" red="0.21960783" green="0.019607843829999999" blue="0.01176470611" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="alphabet" secureTextEntry="YES"/>
                                             </textField>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kmw-e9-CzD">
                                                 <rect key="frame" x="23" y="25" width="20" height="20"/>
