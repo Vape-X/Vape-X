@@ -9,8 +9,8 @@ import UIKit
 
 class LoginViewController: UIViewController {
     
-    var mocUser: String = "test99"
-    var mocPassword: String = "passWord12$"
+    var mocUser: String = "admin"
+    var mocPassword: String = "admin786@"
     
     @IBOutlet weak var txtfieldUsername: UITextField!
     @IBOutlet weak var txtfieldPassword: UITextField!
