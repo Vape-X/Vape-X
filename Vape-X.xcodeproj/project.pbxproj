@@ -119,6 +119,40 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		423B9E9128F0D2CF00013643 /* ValidationExtension */ = {
+			isa = PBXGroup;
+			children = (
+				E0917DA028F0177F000BE320 /* LoginValidation.swift */,
+				E0C60BD128F0142A004F75F8 /* StringExtension.swift */,
+			);
+			path = ValidationExtension;
+			sourceTree = "<group>";
+		};
+		423B9E9228F0D33B00013643 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9839F0BB28DCB60F001DE443 /* LoginViewController.swift */,
+				B3BF0E3128DBEA5D006FE203 /* OTPScreenViewController.swift */,
+				4270DAB928DD27EE002FE468 /* CreateAccountController.swift */,
+				E0BAC3E628D7C22800EF9B13 /* ViewController.swift */,
+				AFAA502B28DD4CCA005714DE /* WelcomeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		423B9E9328F0D36B00013643 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				E0BAC3ED28D7C22900EF9B13 /* LaunchScreen.storyboard */,
+				4270DAB728DD2782002FE468 /* CreatePage.storyboard */,
+				98BC85B028DCDC3800C3FBC8 /* LoginPage.storyboard */,
+				AF0583F628DBF6A8005B79A9 /* Welcome.storyboard */,
+				E0BAC3E828D7C22800EF9B13 /* Main.storyboard */,
+				B3BF0E3728DBF0D6006FE203 /* OTPScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
 		E0BAC3D628D7C22800EF9B13 = {
 			isa = PBXGroup;
 			children = (
@@ -146,19 +180,9 @@
 			children = (
 				E0BAC3E228D7C22800EF9B13 /* AppDelegate.swift */,
 				E0BAC3E428D7C22800EF9B13 /* SceneDelegate.swift */,
-				4270DAB928DD27EE002FE468 /* CreateAccountController.swift */,
-				E0BAC3ED28D7C22900EF9B13 /* LaunchScreen.storyboard */,
-				4270DAB728DD2782002FE468 /* CreatePage.storyboard */,
-				98BC85B028DCDC3800C3FBC8 /* LoginPage.storyboard */,
-				AF0583F628DBF6A8005B79A9 /* Welcome.storyboard */,
-				E0BAC3E828D7C22800EF9B13 /* Main.storyboard */,
-				B3BF0E3728DBF0D6006FE203 /* OTPScreen.storyboard */,
-				E0917DA028F0177F000BE320 /* LoginValidation.swift */,
-				E0C60BD128F0142A004F75F8 /* StringExtension.swift */,
-				9839F0BB28DCB60F001DE443 /* LoginViewController.swift */,
-				B3BF0E3128DBEA5D006FE203 /* OTPScreenViewController.swift */,
-				E0BAC3E628D7C22800EF9B13 /* ViewController.swift */,
-				AFAA502B28DD4CCA005714DE /* WelcomeViewController.swift */,
+				423B9E9328F0D36B00013643 /* StoryBoards */,
+				423B9E9128F0D2CF00013643 /* ValidationExtension */,
+				423B9E9228F0D33B00013643 /* ViewControllers */,
 				30B1D85528DABFF70019B37F /* GoogleService-Info.plist */,
 				E0BAC3F028D7C22900EF9B13 /* Info.plist */,
 				E0BAC3EB28D7C22900EF9B13 /* Assets.xcassets */,
@@ -186,7 +210,6 @@
 		E0C60BD428F0163E004F75F8 /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
-				23A3B8BD28EE57D500061CEE /* LoginValidateExtention.swift */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
@@ -366,7 +389,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23A3B8BE28EE57D500061CEE /* LoginValidateExtention.swift in Sources */,
 				B3BF0E3228DBEA5D006FE203 /* OTPScreenViewController.swift in Sources */,
 				E0BAC3E728D7C22800EF9B13 /* ViewController.swift in Sources */,
 				AFAA502C28DD4CCA005714DE /* WelcomeViewController.swift in Sources */,
