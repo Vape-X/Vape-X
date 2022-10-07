@@ -13,7 +13,11 @@ class CreateAccountController: UIViewController {
     @IBOutlet weak var phoneNumberTextField: UITextField!
     @IBOutlet weak var passwordLabel: UILabel!
     @IBOutlet weak var passwordTextfield: UITextField!
-    @IBOutlet weak var nextButtonOutlet: UIButton!
+    @IBOutlet weak var nextButtonOutlet: UIButton! {
+        didSet {
+            nextButtonOutlet.backgroundColor = #colorLiteral(red: 0.8561633229, green: 0.8264369369, blue: 0.5425977111, alpha: 1)
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
