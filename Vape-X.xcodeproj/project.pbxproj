@@ -16,14 +16,15 @@
 		30FC3C2B28D9A16E00F2FA59 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 30FC3C2A28D9A16E00F2FA59 /* FirebaseCrashlytics */; };
 		30FC3C2E28D9A62800F2FA59 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 30FC3C2D28D9A62800F2FA59 /* FirebaseAnalytics */; };
 		30FC3C3028D9A63000F2FA59 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 30FC3C2F28D9A63000F2FA59 /* FirebaseAnalyticsWithoutAdIdSupport */; };
-		4270DAB828DD2782002FE468 /* CreatePage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4270DAB728DD2782002FE468 /* CreatePage.storyboard */; };
+		4270DAB828DD2782002FE468 /* LogInPageStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4270DAB728DD2782002FE468 /* LogInPageStoryBoard.storyboard */; };
 		4270DABA28DD27EE002FE468 /* CreateAccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4270DAB928DD27EE002FE468 /* CreateAccountController.swift */; };
 		9839F0BC28DCB60F001DE443 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9839F0BB28DCB60F001DE443 /* LoginViewController.swift */; };
-		98BC85B128DCDC3800C3FBC8 /* LoginPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98BC85B028DCDC3800C3FBC8 /* LoginPage.storyboard */; };
-		AF0583F728DBF6A8005B79A9 /* Welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF0583F628DBF6A8005B79A9 /* Welcome.storyboard */; };
+		98BC85B128DCDC3800C3FBC8 /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98BC85B028DCDC3800C3FBC8 /* LoginStoryboard.storyboard */; };
+		AF0583F728DBF6A8005B79A9 /* WelcomeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF0583F628DBF6A8005B79A9 /* WelcomeStoryboard.storyboard */; };
 		AFAA502C28DD4CCA005714DE /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAA502B28DD4CCA005714DE /* WelcomeViewController.swift */; };
+		B39ED8D528E8EB9E00EC8991 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39ED8D428E8EB9E00EC8991 /* StringExtension.swift */; };
 		B3BF0E3228DBEA5D006FE203 /* OTPScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BF0E3128DBEA5D006FE203 /* OTPScreenViewController.swift */; };
-		B3BF0E3828DBF0D6006FE203 /* OTPScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3BF0E3728DBF0D6006FE203 /* OTPScreen.storyboard */; };
+		B3BF0E3828DBF0D6006FE203 /* OTPScreenStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3BF0E3728DBF0D6006FE203 /* OTPScreenStoryboard.storyboard */; };
 		E0BAC3E328D7C22800EF9B13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC3E228D7C22800EF9B13 /* AppDelegate.swift */; };
 		E0BAC3E528D7C22800EF9B13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC3E428D7C22800EF9B13 /* SceneDelegate.swift */; };
 		E0BAC3E728D7C22800EF9B13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC3E628D7C22800EF9B13 /* ViewController.swift */; };
@@ -54,14 +55,15 @@
 
 /* Begin PBXFileReference section */
 		30B1D85528DABFF70019B37F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Vape-X/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
-		4270DAB728DD2782002FE468 /* CreatePage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreatePage.storyboard; sourceTree = "<group>"; };
+		4270DAB728DD2782002FE468 /* LogInPageStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LogInPageStoryBoard.storyboard; sourceTree = "<group>"; };
 		4270DAB928DD27EE002FE468 /* CreateAccountController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountController.swift; sourceTree = "<group>"; };
 		9839F0BB28DCB60F001DE443 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		98BC85B028DCDC3800C3FBC8 /* LoginPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginPage.storyboard; sourceTree = "<group>"; };
-		AF0583F628DBF6A8005B79A9 /* Welcome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Welcome.storyboard; sourceTree = "<group>"; };
+		98BC85B028DCDC3800C3FBC8 /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
+		AF0583F628DBF6A8005B79A9 /* WelcomeStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WelcomeStoryboard.storyboard; sourceTree = "<group>"; };
 		AFAA502B28DD4CCA005714DE /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		B39ED8D428E8EB9E00EC8991 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		B3BF0E3128DBEA5D006FE203 /* OTPScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPScreenViewController.swift; sourceTree = "<group>"; };
-		B3BF0E3728DBF0D6006FE203 /* OTPScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OTPScreen.storyboard; sourceTree = "<group>"; };
+		B3BF0E3728DBF0D6006FE203 /* OTPScreenStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OTPScreenStoryboard.storyboard; sourceTree = "<group>"; };
 		E0BAC3DF28D7C22800EF9B13 /* Vape-X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vape-X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0BAC3E228D7C22800EF9B13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0BAC3E428D7C22800EF9B13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -144,17 +146,21 @@
 				4270DAB928DD27EE002FE468 /* CreateAccountController.swift */,
 				30B1D85528DABFF70019B37F /* GoogleService-Info.plist */,
 				E0BAC3F028D7C22900EF9B13 /* Info.plist */,
-				E0BAC3ED28D7C22900EF9B13 /* LaunchScreen.storyboard */,
-				4270DAB728DD2782002FE468 /* CreatePage.storyboard */,
-				98BC85B028DCDC3800C3FBC8 /* LoginPage.storyboard */,
+				4270DAB728DD2782002FE468 /* LogInPageStoryBoard.storyboard */,
+				98BC85B028DCDC3800C3FBC8 /* LoginStoryboard.storyboard */,
+				B3BF0E3728DBF0D6006FE203 /* OTPScreenStoryboard.storyboard */,
+				AF0583F628DBF6A8005B79A9 /* WelcomeStoryboard.storyboard */,
+				E0BAC3E228D7C22800EF9B13 /* AppDelegate.swift */,
+				4270DAB928DD27EE002FE468 /* CreateAccountController.swift */,
+				B39ED8D428E8EB9E00EC8991 /* StringExtension.swift */,
 				9839F0BB28DCB60F001DE443 /* LoginViewController.swift */,
-				E0BAC3E828D7C22800EF9B13 /* Main.storyboard */,
-				B3BF0E3728DBF0D6006FE203 /* OTPScreen.storyboard */,
 				B3BF0E3128DBEA5D006FE203 /* OTPScreenViewController.swift */,
 				E0BAC3E428D7C22800EF9B13 /* SceneDelegate.swift */,
 				E0BAC3E628D7C22800EF9B13 /* ViewController.swift */,
-				AF0583F628DBF6A8005B79A9 /* Welcome.storyboard */,
 				AFAA502B28DD4CCA005714DE /* WelcomeViewController.swift */,
+				E0BAC3EB28D7C22900EF9B13 /* Assets.xcassets */,
+				E0BAC3ED28D7C22900EF9B13 /* LaunchScreen.storyboard */,
+				E0BAC3E828D7C22800EF9B13 /* Main.storyboard */,
 			);
 			path = "Vape-X";
 			sourceTree = "<group>";
@@ -351,6 +357,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B39ED8D528E8EB9E00EC8991 /* StringExtension.swift in Sources */,
 				B3BF0E3228DBEA5D006FE203 /* OTPScreenViewController.swift in Sources */,
 				E0BAC3E728D7C22800EF9B13 /* ViewController.swift in Sources */,
 				AFAA502C28DD4CCA005714DE /* WelcomeViewController.swift in Sources */,
