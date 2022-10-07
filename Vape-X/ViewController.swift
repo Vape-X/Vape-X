@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         DispatchQueue.main.asyncAfter(deadline: .now() + 6.0) {
             let storyboard = UIStoryboard(name: "Welcome", bundle: nil)
             let vc = storyboard.instantiateViewController(withIdentifier: "Welcome")
-            self.navigationController?.pushViewController(vc, animated: true)
+            self.navigationController?.pushViewController(vc, animated: false)
         }
     }
 }
