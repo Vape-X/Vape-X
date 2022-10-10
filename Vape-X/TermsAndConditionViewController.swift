@@ -13,21 +13,23 @@ class TermsAndConditionViewController: UIViewController {
     @IBOutlet weak var myTextView: UITextView!
     @IBOutlet weak var myTextViewHeight: NSLayoutConstraint!
     @IBOutlet weak var readMoreButtonOutlet: UIButton!
-    
     var isLabelMaxHeight = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+        configureReadMoreButton()
     }
-
-
+    
     @IBAction func readMoreButton(_ sender: Any) {
+        configureReadMoreButton()
+    }
+    
+    func configureReadMoreButton() {
         if isLabelMaxHeight {
             readMoreButtonOutlet.setTitle("", for: .normal)
             isLabelMaxHeight = false
             myTextViewHeight.constant = 280
-        
+            
             readMoreButtonOutlet.setImage(UIImage(systemName: "chevron.up")?.withTintColor(.systemBrown, renderingMode: .alwaysOriginal), for: .normal)
             mybuttonXCenter.constant = 80
             readMoreButtonOutlet.backgroundColor = .clear
@@ -43,6 +45,3 @@ class TermsAndConditionViewController: UIViewController {
         }
     }
 }
-
-//let imageIcon = UIImage(systemName: "chevron.up")?.withTintColor(.red, renderingMode: .alwaysOriginal)
-//    imageView.image = imageIcon
