@@ -14,4 +14,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     
     }
+    
+    @IBAction func goToTermsAndConditions(_ sender: Any) {
+        let storyBoard = UIStoryboard.init(name: "TermsAndCondition", bundle: nil)
+        let nextVc = storyBoard.instantiateViewController(withIdentifier: "TermsAndConditionViewController") as! TermsAndConditionViewController
+        present(nextVc, animated: true)
+    }
+    
+    
 }
