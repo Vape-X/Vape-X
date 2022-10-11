@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
@@ -64,7 +64,7 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="NextButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="0na-NI-won"/>
+                                    <action selector="goToNextVc:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="ESP-n2-ryZ"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="glH-UB-SRf">
@@ -141,13 +141,36 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="myTextView" destination="fzs-HZ-0gD" id="CPl-w0-nvZ"/>
-                        <outlet property="myTextViewHeight" destination="gQK-eI-xTg" id="21P-26-AWC"/>
-                        <outlet property="mybuttonXCenter" destination="SXN-aZ-KGJ" id="lVz-Qi-FXD"/>
                         <outlet property="readMoreButtonOutlet" destination="veG-IB-aCv" id="nkb-7R-2w9"/>
+                        <outlet property="readMoreButtonXCenter" destination="SXN-aZ-KGJ" id="lVz-Qi-FXD"/>
+                        <outlet property="termsAndConditionTextView" destination="fzs-HZ-0gD" id="CPl-w0-nvZ"/>
+                        <outlet property="termsAndConditiontextViewHeight" destination="gQK-eI-xTg" id="21P-26-AWC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aQc-iX-EuI">
+                    <rect key="frame" x="0.0" y="0.0" width="187" height="50"/>
+                    <color key="backgroundColor" systemColor="systemBrownColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="187" id="sUi-zs-gT7"/>
+                        <constraint firstAttribute="height" constant="50" id="uIs-49-yzP"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" imagePlacement="trailing" title="Read More    ">
+                        <imageReference key="image" image="chevron.down" catalog="system" symbolScale="large" renderingMode="template" variableValue="1"/>
+                        <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" weight="bold"/>
+                        <fontDescription key="titleFontDescription" type="boldSystem" pointSize="17"/>
+                        <color key="baseForegroundColor" red="0.22678324580000001" green="0.051556937400000002" blue="0.023517310619999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </buttonConfiguration>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <integer key="value" value="22"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="readMoreButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="ZtY-mb-4I5"/>
+                    </connections>
+                </button>
             </objects>
             <point key="canvasLocation" x="47.692307692307693" y="-2.1327014218009479"/>
         </scene>
