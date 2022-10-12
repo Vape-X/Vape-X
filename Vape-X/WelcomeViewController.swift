@@ -11,6 +11,7 @@ class WelcomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationItem.hidesBackButton = true
     }
     
     @IBAction func createAccount(_ sender: Any) {
