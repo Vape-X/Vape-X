@@ -39,7 +39,10 @@ class LoginViewController: UIViewController {
         if let userNameText = txtfieldUsername.text, let passwordText = txtfieldPassword.text {
             if userNameText.validUser() && passwordText.validPassword() {
                 if userNameText == mocUser && passwordText == mocPassword {
-                    // do the navigation here
+                    let home: HomePageViewController = UIStoryboard(name: "HomePage", bundle: nil).instantiateViewController(withIdentifier: "HomePage") as! HomePageViewController
+                    home.modalTransitionStyle = .crossDissolve
+                    home.modalPresentationStyle = .fullScreen
+                    present(home, animated: true)
                     ifCorrect()
                 }
             } else {
