@@ -119,16 +119,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		423B9E9128F0D2CF00013643 /* ValidationExtension */ = {
+		423B9E9128F0D2CF00013643 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				E0917DA028F0177F000BE320 /* LoginValidation.swift */,
 				E0C60BD128F0142A004F75F8 /* StringExtension.swift */,
 			);
-			path = ValidationExtension;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
-		423B9E9228F0D33B00013643 /* ViewControllers */ = {
+		423B9E9228F0D33B00013643 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				9839F0BB28DCB60F001DE443 /* LoginViewController.swift */,
@@ -137,10 +137,10 @@
 				E0BAC3E628D7C22800EF9B13 /* ViewController.swift */,
 				AFAA502B28DD4CCA005714DE /* WelcomeViewController.swift */,
 			);
-			path = ViewControllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
-		423B9E9328F0D36B00013643 /* StoryBoards */ = {
+		423B9E9328F0D36B00013643 /* views */ = {
 			isa = PBXGroup;
 			children = (
 				E0BAC3ED28D7C22900EF9B13 /* LaunchScreen.storyboard */,
@@ -150,7 +150,7 @@
 				E0BAC3E828D7C22800EF9B13 /* Main.storyboard */,
 				B3BF0E3728DBF0D6006FE203 /* OTPScreen.storyboard */,
 			);
-			path = StoryBoards;
+			path = views;
 			sourceTree = "<group>";
 		};
 		E0BAC3D628D7C22800EF9B13 = {
@@ -180,9 +180,9 @@
 			children = (
 				E0BAC3E228D7C22800EF9B13 /* AppDelegate.swift */,
 				E0BAC3E428D7C22800EF9B13 /* SceneDelegate.swift */,
-				423B9E9328F0D36B00013643 /* StoryBoards */,
-				423B9E9128F0D2CF00013643 /* ValidationExtension */,
-				423B9E9228F0D33B00013643 /* ViewControllers */,
+				423B9E9328F0D36B00013643 /* views */,
+				423B9E9128F0D2CF00013643 /* Extensions */,
+				423B9E9228F0D33B00013643 /* Controllers */,
 				30B1D85528DABFF70019B37F /* GoogleService-Info.plist */,
 				E0BAC3F028D7C22900EF9B13 /* Info.plist */,
 				E0BAC3EB28D7C22900EF9B13 /* Assets.xcassets */,
