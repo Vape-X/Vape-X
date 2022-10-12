@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3b4-S5-ZoD">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home Page View Controller-->
+        <scene sceneID="dxV-bm-vUG">
+            <objects>
+                <viewController storyboardIdentifier="HomePage" id="3b4-S5-ZoD" customClass="HomePageViewController" customModule="Vape_X" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2Tr-IL-xBz">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mJP-iC-Knb">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="53e-Fr-WMt">
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="257"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nh9-d2-8X5">
+                                                <rect key="frame" x="0.0" y="0.0" width="390" height="18"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="18" id="5yi-aj-OC8"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w55-TE-xFU">
+                                                <rect key="frame" x="0.0" y="48" width="390" height="60"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nYH-7D-3hP">
+                                                        <rect key="frame" x="10" y="18" width="32" height="32"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="32" id="8lz-Pk-q5P"/>
+                                                            <constraint firstAttribute="height" constant="32" id="w0D-zE-LtV"/>
+                                                        </constraints>
+                                                        <color key="tintColor" red="0.96470588450000005" green="0.91372549530000002" blue="0.66666668650000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="HomePageBurgerImage"/>
+                                                        <connections>
+                                                            <action selector="burgerMenuButton:" destination="3b4-S5-ZoD" eventType="touchUpInside" id="Fd0-Xq-s87"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FBw-23-AIx">
+                                                        <rect key="frame" x="348" y="18" width="32" height="32"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="32" id="5vx-vt-mdi"/>
+                                                            <constraint firstAttribute="width" constant="32" id="8W1-PY-pTE"/>
+                                                        </constraints>
+                                                        <color key="tintColor" red="0.96470588450000005" green="0.91372549530000002" blue="0.66666668650000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" backgroundImage="HomePagelocation">
+                                                            <color key="titleShadowColor" red="0.96470588450000005" green="0.91372549530000002" blue="0.66666668650000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="locationButton:" destination="3b4-S5-ZoD" eventType="touchUpInside" id="h0B-Uz-HlK"/>
+                                                        </connections>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vape X" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xe7-CK-4fh">
+                                                        <rect key="frame" x="160" y="15.666666666666663" width="70.333333333333314" height="26.333333333333329"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                                        <color key="textColor" red="0.96470588450000005" green="0.91372549530000002" blue="0.66666668650000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.2352941036" green="0.14901961389999999" blue="0.098039209840000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstItem="nYH-7D-3hP" firstAttribute="leading" secondItem="w55-TE-xFU" secondAttribute="leading" constant="10" id="7Pp-A5-OOv"/>
+                                                    <constraint firstAttribute="bottom" secondItem="Xe7-CK-4fh" secondAttribute="bottom" constant="18" id="CJz-No-dZf"/>
+                                                    <constraint firstAttribute="trailing" secondItem="FBw-23-AIx" secondAttribute="trailing" constant="10" id="KOx-QN-Pfv"/>
+                                                    <constraint firstAttribute="bottom" secondItem="nYH-7D-3hP" secondAttribute="bottom" constant="10" id="Pdq-x5-tgm"/>
+                                                    <constraint firstAttribute="height" constant="60" id="Tyr-Lt-kYj"/>
+                                                    <constraint firstAttribute="bottom" secondItem="FBw-23-AIx" secondAttribute="bottom" constant="10" id="lqd-Kg-6e8"/>
+                                                    <constraint firstItem="Xe7-CK-4fh" firstAttribute="centerX" secondItem="w55-TE-xFU" secondAttribute="centerX" id="qGm-7b-PJ5"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2pn-U6-cNy">
+                                                <rect key="frame" x="0.0" y="138" width="390" height="55"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="magnifyingglass" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="dJb-ts-n1Y">
+                                                        <rect key="frame" x="4" y="8.6666666666666536" width="40" height="38.333333333333329"/>
+                                                        <color key="tintColor" red="0.6549019814" green="0.58823531870000001" blue="0.4588235021" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="40" id="Qfx-O2-Y9T"/>
+                                                            <constraint firstAttribute="height" constant="40" id="rL5-lW-Vy8"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Search" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="U2B-c0-tEF">
+                                                        <rect key="frame" x="54" y="0.0" width="282" height="55"/>
+                                                        <color key="textColor" red="0.96470588450000005" green="0.91372549530000002" blue="0.66666668650000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="U2B-c0-tEF" firstAttribute="leading" secondItem="dJb-ts-n1Y" secondAttribute="trailing" constant="10" id="2ip-Ha-HGD"/>
+                                                    <constraint firstAttribute="bottom" secondItem="U2B-c0-tEF" secondAttribute="bottom" id="3Tx-x0-1bf"/>
+                                                    <constraint firstItem="U2B-c0-tEF" firstAttribute="top" secondItem="2pn-U6-cNy" secondAttribute="top" id="V5S-7n-YvG"/>
+                                                    <constraint firstItem="dJb-ts-n1Y" firstAttribute="leading" secondItem="2pn-U6-cNy" secondAttribute="leading" constant="4" id="bew-63-dK2"/>
+                                                    <constraint firstAttribute="height" constant="55" id="cxZ-9m-XMB"/>
+                                                    <constraint firstItem="dJb-ts-n1Y" firstAttribute="centerY" secondItem="2pn-U6-cNy" secondAttribute="centerY" id="dnT-c6-riW"/>
+                                                    <constraint firstItem="U2B-c0-tEF" firstAttribute="centerX" secondItem="2pn-U6-cNy" secondAttribute="centerX" id="qBP-1w-Hoc"/>
+                                                </constraints>
+                                            </view>
+                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8rz-BF-gus">
+                                                <rect key="frame" x="0.0" y="223" width="390" height="34"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="qZq-gT-ozs">
+                                                        <rect key="frame" x="0.0" y="0.0" width="430" height="34"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sba-Lk-bI2">
+                                                                <rect key="frame" x="0.0" y="0.0" width="100" height="34"/>
+                                                                <color key="backgroundColor" red="0.97647058959999999" green="0.92156863209999995" blue="0.67058825489999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="100" id="reh-9S-vC7"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                <state key="normal" title="Vape Types">
+                                                                    <color key="titleColor" systemColor="labelColor"/>
+                                                                </state>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                        <integer key="value" value="3"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
+                                                                <connections>
+                                                                    <action selector="vapeTypesButton:" destination="3b4-S5-ZoD" eventType="touchUpInside" id="sd5-ky-59j"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qdS-vF-Yig">
+                                                                <rect key="frame" x="110" y="0.0" width="100" height="34"/>
+                                                                <color key="backgroundColor" red="0.97647058959999999" green="0.92156863209999995" blue="0.67058825489999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                <state key="normal" title="Accesories">
+                                                                    <color key="titleColor" systemColor="labelColor"/>
+                                                                </state>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                        <integer key="value" value="3"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
+                                                                <connections>
+                                                                    <action selector="accesoriesButton:" destination="3b4-S5-ZoD" eventType="touchUpInside" id="zKQ-66-ULe"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rqT-6x-gi1">
+                                                                <rect key="frame" x="220" y="0.0" width="100" height="34"/>
+                                                                <color key="backgroundColor" red="0.97647058959999999" green="0.92156863209999995" blue="0.67058825489999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                <state key="normal" title="Flavors">
+                                                                    <color key="titleColor" systemColor="labelColor"/>
+                                                                </state>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                        <integer key="value" value="3"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
+                                                                <connections>
+                                                                    <action selector="flavorsButton:" destination="3b4-S5-ZoD" eventType="touchUpInside" id="uQc-KU-1RN"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xh1-L2-dR9">
+                                                                <rect key="frame" x="330" y="0.0" width="100" height="34"/>
+                                                                <color key="backgroundColor" red="0.97647058959999999" green="0.92156863209999995" blue="0.67058825489999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                <state key="normal" title="Vape Pen">
+                                                                    <color key="titleColor" systemColor="labelColor"/>
+                                                                </state>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                        <integer key="value" value="3"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
+                                                                <connections>
+                                                                    <action selector="vapePenButton:" destination="3b4-S5-ZoD" eventType="touchUpInside" id="9vF-Gy-NSL"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="qZq-gT-ozs" firstAttribute="top" secondItem="8rz-BF-gus" secondAttribute="top" id="3I8-5r-zfD"/>
+                                                    <constraint firstItem="qZq-gT-ozs" firstAttribute="height" secondItem="8rz-BF-gus" secondAttribute="height" id="PbB-yU-N88"/>
+                                                    <constraint firstItem="qZq-gT-ozs" firstAttribute="leading" secondItem="8rz-BF-gus" secondAttribute="leading" id="Q9P-tm-6nd"/>
+                                                    <constraint firstAttribute="height" constant="34" id="Qkh-s3-yMv"/>
+                                                    <constraint firstAttribute="bottom" secondItem="qZq-gT-ozs" secondAttribute="bottom" id="Xmm-e2-Mgf"/>
+                                                    <constraint firstAttribute="trailing" secondItem="qZq-gT-ozs" secondAttribute="trailing" id="ttC-bo-aAj"/>
+                                                </constraints>
+                                            </scrollView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="53e-Fr-WMt" firstAttribute="top" secondItem="mJP-iC-Knb" secondAttribute="top" id="9rl-yy-rx8"/>
+                                    <constraint firstAttribute="bottom" secondItem="53e-Fr-WMt" secondAttribute="bottom" id="SHJ-05-TUq"/>
+                                    <constraint firstAttribute="trailing" secondItem="53e-Fr-WMt" secondAttribute="trailing" id="nKB-fX-98S"/>
+                                    <constraint firstItem="53e-Fr-WMt" firstAttribute="width" secondItem="mJP-iC-Knb" secondAttribute="width" id="xXY-M4-kTP"/>
+                                    <constraint firstItem="53e-Fr-WMt" firstAttribute="leading" secondItem="mJP-iC-Knb" secondAttribute="leading" id="zZf-b2-6Uv"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="V46-K4-SBi"/>
+                        <color key="backgroundColor" red="0.1215686351" green="0.01176470611" blue="0.0078431377190000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="mJP-iC-Knb" firstAttribute="top" secondItem="2Tr-IL-xBz" secondAttribute="top" id="fe7-SU-mia"/>
+                            <constraint firstItem="V46-K4-SBi" firstAttribute="trailing" secondItem="mJP-iC-Knb" secondAttribute="trailing" id="geR-bi-LWM"/>
+                            <constraint firstAttribute="bottom" secondItem="mJP-iC-Knb" secondAttribute="bottom" id="x6k-vL-axP"/>
+                            <constraint firstItem="mJP-iC-Knb" firstAttribute="leading" secondItem="V46-K4-SBi" secondAttribute="leading" id="yjd-Cf-9aD"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="searchText" destination="U2B-c0-tEF" id="toq-BH-EPd"/>
+                        <outlet property="searchView" destination="2pn-U6-cNy" id="eq9-Zb-X04"/>
+                        <outlet property="topView" destination="w55-TE-xFU" id="Vpf-tf-yzd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SoC-1G-hx2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-189.23076923076923" y="-75.355450236966817"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="HomePageBurgerImage" width="32" height="32"/>
+        <image name="HomePagelocation" width="32" height="32"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="117"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

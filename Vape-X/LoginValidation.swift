@@ -21,7 +21,7 @@ extension UITextField {
 
 extension String{
     func validUser() -> Bool {
-        let passwordRegex = "^(?=.*[0-9]).{6,}$"
+        let passwordRegex = "\\w{5,18}"
         return NSPredicate(format: "SELF MATCHES %@", passwordRegex).evaluate(with: self)
     }
     func validPassword() -> Bool {
