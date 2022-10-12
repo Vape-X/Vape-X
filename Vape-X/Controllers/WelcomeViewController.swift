@@ -15,8 +15,8 @@ class WelcomeViewController: UIViewController {
     }
     
     @IBAction func createAccount(_ sender: Any) {
-        let storyboard = UIStoryboard(name: "CreatePage", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "CreatePage")
+        let storyboard = UIStoryboard(name: "TermsAndCondition", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "TermsAndCondition")
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
@@ -24,6 +24,5 @@ class WelcomeViewController: UIViewController {
         let storyboard = UIStoryboard(name: "LoginPage", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "LoginPage")
         self.navigationController?.pushViewController(vc, animated: true)
-        
     }
 }

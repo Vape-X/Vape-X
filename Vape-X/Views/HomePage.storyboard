@@ -40,20 +40,20 @@
                                                         </constraints>
                                                         <color key="tintColor" red="0.96470588450000005" green="0.91372549530000002" blue="0.66666668650000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" image="HomePageBurgerImage"/>
+                                                        <state key="normal" image="text.chevron.right" catalog="system"/>
                                                         <connections>
                                                             <action selector="burgerMenuButton:" destination="3b4-S5-ZoD" eventType="touchUpInside" id="Fd0-Xq-s87"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FBw-23-AIx">
-                                                        <rect key="frame" x="348" y="18" width="32" height="32"/>
+                                                        <rect key="frame" x="348" y="19" width="32" height="30.666666666666671"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="32" id="5vx-vt-mdi"/>
                                                             <constraint firstAttribute="width" constant="32" id="8W1-PY-pTE"/>
                                                         </constraints>
                                                         <color key="tintColor" red="0.96470588450000005" green="0.91372549530000002" blue="0.66666668650000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" backgroundImage="HomePagelocation">
+                                                        <state key="normal" backgroundImage="location.circle" catalog="system">
                                                             <color key="titleShadowColor" red="0.96470588450000005" green="0.91372549530000002" blue="0.66666668650000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
                                                         <connections>
@@ -229,9 +229,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="HomePageBurgerImage" width="32" height="32"/>
-        <image name="HomePagelocation" width="32" height="32"/>
+        <image name="location.circle" catalog="system" width="128" height="123"/>
         <image name="magnifyingglass" catalog="system" width="128" height="117"/>
+        <image name="text.chevron.right" catalog="system" width="128" height="89"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
