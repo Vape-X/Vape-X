@@ -95,7 +95,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
-                        <color key="backgroundColor" name="BGOTPScreenColor"/>
+                        <color key="backgroundColor" red="0.1215686351" green="0.01176470611" blue="0.0078431377190000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="vZG-TZ-io8" secondAttribute="bottom" constant="80" id="094-WD-TQe"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="YCR-hn-SqT" secondAttribute="trailing" constant="17" id="6gV-YF-NlG"/>
@@ -128,9 +128,6 @@
     </scenes>
     <resources>
         <image name="tray" catalog="system" width="128" height="88"/>
-        <namedColor name="BGOTPScreenColor">
-            <color red="0.062745098039215685" green="0.0039215686274509803" blue="0.0039215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
         <namedColor name="LabelTextColor">
             <color red="0.85490196078431369" green="0.82745098039215681" blue="0.50196078431372548" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

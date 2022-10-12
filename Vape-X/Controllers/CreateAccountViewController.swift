@@ -6,7 +6,7 @@
 
 import UIKit
 
-class CreateAccountController: UIViewController {
+class CreateAccountViewController: UIViewController {
     
     @IBOutlet weak var userNameTextField: UITextField!
     @IBOutlet weak var emailAddressTextField: UITextField!
@@ -49,7 +49,7 @@ class CreateAccountController: UIViewController {
     }
     
     func hideKeyboardWhenTappedAround() {
-        let tap = UITapGestureRecognizer(target: self, action: #selector(CreateAccountController.dismissKeyboard))
+        let tap = UITapGestureRecognizer(target: self, action: #selector(CreateAccountViewController.dismissKeyboard))
         tap.cancelsTouchesInView = false
         view.addGestureRecognizer(tap)
     }

@@ -16,8 +16,10 @@
 		30FC3C2B28D9A16E00F2FA59 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 30FC3C2A28D9A16E00F2FA59 /* FirebaseCrashlytics */; };
 		30FC3C2E28D9A62800F2FA59 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 30FC3C2D28D9A62800F2FA59 /* FirebaseAnalytics */; };
 		30FC3C3028D9A63000F2FA59 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 30FC3C2F28D9A63000F2FA59 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		3984826128F6B4F40030CF92 /* TermsAndConditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3984826028F6B4F40030CF92 /* TermsAndConditionViewController.swift */; };
+		3984826328F6B5280030CF92 /* TermsAndCondition.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3984826228F6B5280030CF92 /* TermsAndCondition.storyboard */; };
 		4270DAB828DD2782002FE468 /* CreatePage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4270DAB728DD2782002FE468 /* CreatePage.storyboard */; };
-		4270DABA28DD27EE002FE468 /* CreateAccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4270DAB928DD27EE002FE468 /* CreateAccountController.swift */; };
+		4270DABA28DD27EE002FE468 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4270DAB928DD27EE002FE468 /* CreateAccountViewController.swift */; };
 		9839F0BC28DCB60F001DE443 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9839F0BB28DCB60F001DE443 /* LoginViewController.swift */; };
 		98BC85B128DCDC3800C3FBC8 /* LoginPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98BC85B028DCDC3800C3FBC8 /* LoginPage.storyboard */; };
 		AF0583F728DBF6A8005B79A9 /* Welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF0583F628DBF6A8005B79A9 /* Welcome.storyboard */; };
@@ -27,7 +29,6 @@
 		B3712B0528F0AD06002FA1CF /* RingSmoke.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B3712B0428F0AD06002FA1CF /* RingSmoke.mp4 */; };
 		B3BF0E3228DBEA5D006FE203 /* OTPScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BF0E3128DBEA5D006FE203 /* OTPScreenViewController.swift */; };
 		B3BF0E3828DBF0D6006FE203 /* OTPScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3BF0E3728DBF0D6006FE203 /* OTPScreen.storyboard */; };
-		E0917DA128F0177F000BE320 /* LoginValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0917DA028F0177F000BE320 /* LoginValidation.swift */; };
 		E0BAC3E328D7C22800EF9B13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC3E228D7C22800EF9B13 /* AppDelegate.swift */; };
 		E0BAC3E528D7C22800EF9B13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC3E428D7C22800EF9B13 /* SceneDelegate.swift */; };
 		E0BAC3E728D7C22800EF9B13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC3E628D7C22800EF9B13 /* ViewController.swift */; };
@@ -59,8 +60,10 @@
 
 /* Begin PBXFileReference section */
 		30B1D85528DABFF70019B37F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Vape-X/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		3984826028F6B4F40030CF92 /* TermsAndConditionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndConditionViewController.swift; sourceTree = "<group>"; };
+		3984826228F6B5280030CF92 /* TermsAndCondition.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TermsAndCondition.storyboard; sourceTree = "<group>"; };
 		4270DAB728DD2782002FE468 /* CreatePage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreatePage.storyboard; sourceTree = "<group>"; };
-		4270DAB928DD27EE002FE468 /* CreateAccountController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountController.swift; sourceTree = "<group>"; };
+		4270DAB928DD27EE002FE468 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		9839F0BB28DCB60F001DE443 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		98BC85B028DCDC3800C3FBC8 /* LoginPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginPage.storyboard; sourceTree = "<group>"; };
 		AF0583F628DBF6A8005B79A9 /* Welcome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Welcome.storyboard; sourceTree = "<group>"; };
@@ -70,7 +73,6 @@
 		B3712B0428F0AD06002FA1CF /* RingSmoke.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = RingSmoke.mp4; sourceTree = "<group>"; };
 		B3BF0E3128DBEA5D006FE203 /* OTPScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPScreenViewController.swift; sourceTree = "<group>"; };
 		B3BF0E3728DBF0D6006FE203 /* OTPScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OTPScreen.storyboard; sourceTree = "<group>"; };
-		E0917DA028F0177F000BE320 /* LoginValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginValidation.swift; sourceTree = "<group>"; };
 		E0BAC3DF28D7C22800EF9B13 /* Vape-X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vape-X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0BAC3E228D7C22800EF9B13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0BAC3E428D7C22800EF9B13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +127,43 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3984826428F6B6810030CF92 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E0BAC3ED28D7C22900EF9B13 /* LaunchScreen.storyboard */,
+				4270DAB728DD2782002FE468 /* CreatePage.storyboard */,
+				AF0583F628DBF6A8005B79A9 /* Welcome.storyboard */,
+				E0BAC3E828D7C22800EF9B13 /* Main.storyboard */,
+				3984826228F6B5280030CF92 /* TermsAndCondition.storyboard */,
+				B3BF0E3728DBF0D6006FE203 /* OTPScreen.storyboard */,
+				98BC85B028DCDC3800C3FBC8 /* LoginPage.storyboard */,
+				AF8DC6A128F0B84F00CE0342 /* HomePage.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3984826628F6B6DF0030CF92 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E0C60BD128F0142A004F75F8 /* StringExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3984826728F6B7030030CF92 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AF8DC69F28F0B83800CE0342 /* HomePageViewController.swift */,
+				4270DAB928DD27EE002FE468 /* CreateAccountViewController.swift */,
+				3984826028F6B4F40030CF92 /* TermsAndConditionViewController.swift */,
+				9839F0BB28DCB60F001DE443 /* LoginViewController.swift */,
+				B3BF0E3128DBEA5D006FE203 /* OTPScreenViewController.swift */,
+				E0BAC3E628D7C22800EF9B13 /* ViewController.swift */,
+				AFAA502B28DD4CCA005714DE /* WelcomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		B3712B0628F0AD0A002FA1CF /* LaunchAnimation */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,22 +199,10 @@
 			children = (
 				E0BAC3E228D7C22800EF9B13 /* AppDelegate.swift */,
 				E0BAC3E428D7C22800EF9B13 /* SceneDelegate.swift */,
-				4270DAB928DD27EE002FE468 /* CreateAccountController.swift */,
-				E0BAC3ED28D7C22900EF9B13 /* LaunchScreen.storyboard */,
-				4270DAB728DD2782002FE468 /* CreatePage.storyboard */,
-				98BC85B028DCDC3800C3FBC8 /* LoginPage.storyboard */,
-				AF0583F628DBF6A8005B79A9 /* Welcome.storyboard */,
-				E0BAC3E828D7C22800EF9B13 /* Main.storyboard */,
-				B3BF0E3728DBF0D6006FE203 /* OTPScreen.storyboard */,
-				E0917DA028F0177F000BE320 /* LoginValidation.swift */,
-				E0C60BD128F0142A004F75F8 /* StringExtension.swift */,
-				9839F0BB28DCB60F001DE443 /* LoginViewController.swift */,
-				B3BF0E3128DBEA5D006FE203 /* OTPScreenViewController.swift */,
+				3984826428F6B6810030CF92 /* Views */,
+				3984826728F6B7030030CF92 /* Controllers */,
+				3984826628F6B6DF0030CF92 /* Extensions */,
 				B3712B0628F0AD0A002FA1CF /* LaunchAnimation */,
-				E0BAC3E628D7C22800EF9B13 /* ViewController.swift */,
-				AFAA502B28DD4CCA005714DE /* WelcomeViewController.swift */,
-				AF8DC69F28F0B83800CE0342 /* HomePageViewController.swift */,
-				AF8DC6A128F0B84F00CE0342 /* HomePage.storyboard */,
 				30B1D85528DABFF70019B37F /* GoogleService-Info.plist */,
 				E0BAC3F028D7C22900EF9B13 /* Info.plist */,
 				E0BAC3EB28D7C22900EF9B13 /* Assets.xcassets */,
@@ -326,6 +353,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98BC85B128DCDC3800C3FBC8 /* LoginPage.storyboard in Resources */,
+				3984826328F6B5280030CF92 /* TermsAndCondition.storyboard in Resources */,
 				E0BAC3EF28D7C22900EF9B13 /* LaunchScreen.storyboard in Resources */,
 				30B1D85628DABFF70019B37F /* GoogleService-Info.plist in Resources */,
 				E0BAC3EC28D7C22900EF9B13 /* Assets.xcassets in Resources */,
@@ -389,10 +417,10 @@
 				AFAA502C28DD4CCA005714DE /* WelcomeViewController.swift in Sources */,
 				E0BAC3E328D7C22800EF9B13 /* AppDelegate.swift in Sources */,
 				E0C60BD228F0142A004F75F8 /* StringExtension.swift in Sources */,
-				4270DABA28DD27EE002FE468 /* CreateAccountController.swift in Sources */,
-				E0917DA128F0177F000BE320 /* LoginValidation.swift in Sources */,
+				4270DABA28DD27EE002FE468 /* CreateAccountViewController.swift in Sources */,
 				E0BAC3E528D7C22800EF9B13 /* SceneDelegate.swift in Sources */,
 				AF8DC6A028F0B83800CE0342 /* HomePageViewController.swift in Sources */,
+				3984826128F6B4F40030CF92 /* TermsAndConditionViewController.swift in Sources */,
 				9839F0BC28DCB60F001DE443 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,8 +9,8 @@ import UIKit
 
 class LoginViewController: UIViewController {
     
-    var mocUser: String = "admin"
-    var mocPassword: String = "admin786@"
+    var mockUser: String = "admin"
+    var mockPassword: String = "admin786@"
     
     @IBOutlet weak var txtfieldUsername: UITextField!
     @IBOutlet weak var txtfieldPassword: UITextField!
@@ -37,8 +37,8 @@ class LoginViewController: UIViewController {
     
     func unWrapTextField() {
         if let userNameText = txtfieldUsername.text, let passwordText = txtfieldPassword.text {
-            if userNameText.validUser() && passwordText.validPassword() {
-                if userNameText == mocUser && passwordText == mocPassword {
+            if userNameText.isValidUsername() && passwordText.isValidPassword() {
+                if userNameText == mockUser && passwordText == mockPassword {
                     let home: HomePageViewController = UIStoryboard(name: "HomePage", bundle: nil).instantiateViewController(withIdentifier: "HomePage") as! HomePageViewController
                     home.modalTransitionStyle = .crossDissolve
                     home.modalPresentationStyle = .fullScreen

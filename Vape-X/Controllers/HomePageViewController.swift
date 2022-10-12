@@ -19,9 +19,11 @@ class HomePageViewController: UIViewController {
     }
     
     @IBAction func burgerMenuButton(_ sender: Any) {
+        print("hi")
     }
     
     @IBAction func locationButton(_ sender: Any) {
+        print("hi")
     }
     
     @IBAction func vapeTypesButton(_ sender: Any) {
