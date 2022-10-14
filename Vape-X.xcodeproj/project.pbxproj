@@ -26,6 +26,9 @@
 		AF8DC6A028F0B83800CE0342 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8DC69F28F0B83800CE0342 /* HomePageViewController.swift */; };
 		AF8DC6A228F0B84F00CE0342 /* HomePage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF8DC6A128F0B84F00CE0342 /* HomePage.storyboard */; };
 		AFAA502C28DD4CCA005714DE /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAA502B28DD4CCA005714DE /* WelcomeViewController.swift */; };
+		B34C271128F748BD00223769 /* ProfileScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B34C271028F748BD00223769 /* ProfileScreen.storyboard */; };
+		B34C271328F748D600223769 /* ProfileScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34C271228F748D600223769 /* ProfileScreenViewController.swift */; };
+		B34C271528F757F600223769 /* ProfileScreenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34C271428F757F600223769 /* ProfileScreenTableViewCell.swift */; };
 		B3712B0528F0AD06002FA1CF /* RingSmoke.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B3712B0428F0AD06002FA1CF /* RingSmoke.mp4 */; };
 		B3BF0E3228DBEA5D006FE203 /* OTPScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BF0E3128DBEA5D006FE203 /* OTPScreenViewController.swift */; };
 		B3BF0E3828DBF0D6006FE203 /* OTPScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3BF0E3728DBF0D6006FE203 /* OTPScreen.storyboard */; };
@@ -70,6 +73,9 @@
 		AF8DC69F28F0B83800CE0342 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		AF8DC6A128F0B84F00CE0342 /* HomePage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomePage.storyboard; sourceTree = "<group>"; };
 		AFAA502B28DD4CCA005714DE /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		B34C271028F748BD00223769 /* ProfileScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileScreen.storyboard; sourceTree = "<group>"; };
+		B34C271228F748D600223769 /* ProfileScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreenViewController.swift; sourceTree = "<group>"; };
+		B34C271428F757F600223769 /* ProfileScreenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreenTableViewCell.swift; sourceTree = "<group>"; };
 		B3712B0428F0AD06002FA1CF /* RingSmoke.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = RingSmoke.mp4; sourceTree = "<group>"; };
 		B3BF0E3128DBEA5D006FE203 /* OTPScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPScreenViewController.swift; sourceTree = "<group>"; };
 		B3BF0E3728DBF0D6006FE203 /* OTPScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OTPScreen.storyboard; sourceTree = "<group>"; };
@@ -138,6 +144,7 @@
 				B3BF0E3728DBF0D6006FE203 /* OTPScreen.storyboard */,
 				98BC85B028DCDC3800C3FBC8 /* LoginPage.storyboard */,
 				AF8DC6A128F0B84F00CE0342 /* HomePage.storyboard */,
+				B34C271028F748BD00223769 /* ProfileScreen.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -160,8 +167,17 @@
 				B3BF0E3128DBEA5D006FE203 /* OTPScreenViewController.swift */,
 				E0BAC3E628D7C22800EF9B13 /* ViewController.swift */,
 				AFAA502B28DD4CCA005714DE /* WelcomeViewController.swift */,
+				B34C271228F748D600223769 /* ProfileScreenViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B34C271728F7978500223769 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				B34C271428F757F600223769 /* ProfileScreenTableViewCell.swift */,
+			);
+			path = TableView;
 			sourceTree = "<group>";
 		};
 		B3712B0628F0AD0A002FA1CF /* LaunchAnimation */ = {
@@ -199,6 +215,7 @@
 			children = (
 				E0BAC3E228D7C22800EF9B13 /* AppDelegate.swift */,
 				E0BAC3E428D7C22800EF9B13 /* SceneDelegate.swift */,
+				B34C271728F7978500223769 /* TableView */,
 				3984826428F6B6810030CF92 /* Views */,
 				3984826728F6B7030030CF92 /* Controllers */,
 				3984826628F6B6DF0030CF92 /* Extensions */,
@@ -352,6 +369,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B34C271128F748BD00223769 /* ProfileScreen.storyboard in Resources */,
 				98BC85B128DCDC3800C3FBC8 /* LoginPage.storyboard in Resources */,
 				3984826328F6B5280030CF92 /* TermsAndCondition.storyboard in Resources */,
 				E0BAC3EF28D7C22900EF9B13 /* LaunchScreen.storyboard in Resources */,
@@ -414,7 +432,9 @@
 			files = (
 				B3BF0E3228DBEA5D006FE203 /* OTPScreenViewController.swift in Sources */,
 				E0BAC3E728D7C22800EF9B13 /* ViewController.swift in Sources */,
+				B34C271528F757F600223769 /* ProfileScreenTableViewCell.swift in Sources */,
 				AFAA502C28DD4CCA005714DE /* WelcomeViewController.swift in Sources */,
+				B34C271328F748D600223769 /* ProfileScreenViewController.swift in Sources */,
 				E0BAC3E328D7C22800EF9B13 /* AppDelegate.swift in Sources */,
 				E0C60BD228F0142A004F75F8 /* StringExtension.swift in Sources */,
 				4270DABA28DD27EE002FE468 /* CreateAccountViewController.swift in Sources */,
