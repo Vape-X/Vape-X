@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3b4-S5-ZoD">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qBl-HS-0y0">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Home Page View Controller-->
+        <!--Home-->
         <scene sceneID="dxV-bm-vUG">
             <objects>
                 <viewController storyboardIdentifier="HomePage" id="3b4-S5-ZoD" customClass="HomePageViewController" customModule="Vape_X" customModuleProvider="target" sceneMemberID="viewController">
@@ -217,6 +217,7 @@
                             <constraint firstItem="mJP-iC-Knb" firstAttribute="leading" secondItem="V46-K4-SBi" secondAttribute="leading" id="yjd-Cf-9aD"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" id="4vH-UV-EQ5"/>
                     <connections>
                         <outlet property="searchText" destination="U2B-c0-tEF" id="toq-BH-EPd"/>
                         <outlet property="searchView" destination="2pn-U6-cNy" id="eq9-Zb-X04"/>
@@ -225,15 +226,75 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SoC-1G-hx2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-189.23076923076923" y="-75.355450236966817"/>
+            <point key="canvasLocation" x="-1406.1538461538462" y="-134.36018957345971"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="pfX-xn-jFX">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="qBl-HS-0y0" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Z6C-bY-mTI">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="3b4-S5-ZoD" kind="relationship" relationship="viewControllers" id="bsA-Q1-H8c"/>
+                        <segue destination="kwQ-9P-lUk" kind="relationship" relationship="viewControllers" id="xgq-yH-SZY"/>
+                        <segue destination="cpP-Ab-bxf" kind="relationship" relationship="viewControllers" id="tqL-KF-ppy"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oEV-hb-esj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2335.3846153846152" y="-134.36018957345971"/>
+        </scene>
+        <!--Cart-->
+        <scene sceneID="er0-3f-ghn">
+            <objects>
+                <viewController storyboardIdentifier="CartViewController" id="kwQ-9P-lUk" customClass="CartViewController" customModule="Vape_X" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Nbs-GP-OO2">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="6F3-5L-MU3"/>
+                        <color key="backgroundColor" systemColor="systemMintColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Cart" image="cart" catalog="system" id="kOt-fK-IMx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lB8-TR-IlJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2735" y="604"/>
+        </scene>
+        <!--My Profile-->
+        <scene sceneID="GmO-yt-4lE">
+            <objects>
+                <viewController storyboardIdentifier="myProfileViewController" id="cpP-Ab-bxf" customClass="myProfileViewController" customModule="Vape_X" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ivj-CH-Ebp">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="fxK-gM-kLz"/>
+                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="My Profile" image="person" catalog="system" id="z5w-w4-84t"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xdb-LS-Emv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1878" y="604"/>
         </scene>
     </scenes>
     <resources>
+        <image name="cart" catalog="system" width="128" height="102"/>
+        <image name="house" catalog="system" width="128" height="104"/>
         <image name="location.circle" catalog="system" width="128" height="123"/>
         <image name="magnifyingglass" catalog="system" width="128" height="117"/>
+        <image name="person" catalog="system" width="128" height="121"/>
         <image name="text.chevron.right" catalog="system" width="128" height="89"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemMintColor">
+            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
