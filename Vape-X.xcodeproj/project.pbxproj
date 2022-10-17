@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23CBBCC328FCFCAA006EE75C /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CBBCC228FCFCAA006EE75C /* CartViewController.swift */; };
+		23CBBCC528FCFCC7006EE75C /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CBBCC428FCFCC7006EE75C /* MyProfileViewController.swift */; };
 		30B1D85628DABFF70019B37F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30B1D85528DABFF70019B37F /* GoogleService-Info.plist */; };
 		30B1D85728DABFF70019B37F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30B1D85528DABFF70019B37F /* GoogleService-Info.plist */; };
 		30B1D85828DABFF70019B37F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30B1D85528DABFF70019B37F /* GoogleService-Info.plist */; };
@@ -62,6 +64,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23CBBCC228FCFCAA006EE75C /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		23CBBCC428FCFCC7006EE75C /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
 		30B1D85528DABFF70019B37F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Vape-X/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		3984826028F6B4F40030CF92 /* TermsAndConditionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndConditionViewController.swift; sourceTree = "<group>"; };
 		3984826228F6B5280030CF92 /* TermsAndCondition.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TermsAndCondition.storyboard; sourceTree = "<group>"; };
@@ -126,6 +130,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23CBBCC128FCFC6C006EE75C /* TabBarExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				23CBBCC228FCFCAA006EE75C /* CartViewController.swift */,
+				23CBBCC428FCFCC7006EE75C /* MyProfileViewController.swift */,
+			);
+			path = TabBarExtensions;
+			sourceTree = "<group>";
+		};
 		30FC3C2928D9A16E00F2FA59 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,6 +230,7 @@
 				E0BAC3E428D7C22800EF9B13 /* SceneDelegate.swift */,
 				B34C271728F7978500223769 /* TableView */,
 				3984826428F6B6810030CF92 /* Views */,
+				23CBBCC128FCFC6C006EE75C /* TabBarExtensions */,
 				3984826728F6B7030030CF92 /* Controllers */,
 				3984826628F6B6DF0030CF92 /* Extensions */,
 				B3712B0628F0AD0A002FA1CF /* LaunchAnimation */,
@@ -432,10 +446,12 @@
 			files = (
 				B3BF0E3228DBEA5D006FE203 /* OTPScreenViewController.swift in Sources */,
 				E0BAC3E728D7C22800EF9B13 /* ViewController.swift in Sources */,
+				23CBBCC528FCFCC7006EE75C /* MyProfileViewController.swift in Sources */,
 				B34C271528F757F600223769 /* ProfileScreenTableViewCell.swift in Sources */,
 				AFAA502C28DD4CCA005714DE /* WelcomeViewController.swift in Sources */,
 				B34C271328F748D600223769 /* ProfileScreenViewController.swift in Sources */,
 				E0BAC3E328D7C22800EF9B13 /* AppDelegate.swift in Sources */,
+				23CBBCC328FCFCAA006EE75C /* CartViewController.swift in Sources */,
 				E0C60BD228F0142A004F75F8 /* StringExtension.swift in Sources */,
 				4270DABA28DD27EE002FE468 /* CreateAccountViewController.swift in Sources */,
 				E0BAC3E528D7C22800EF9B13 /* SceneDelegate.swift in Sources */,
