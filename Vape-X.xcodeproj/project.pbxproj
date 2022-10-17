@@ -23,6 +23,7 @@
 		9839F0BC28DCB60F001DE443 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9839F0BB28DCB60F001DE443 /* LoginViewController.swift */; };
 		98BC85B128DCDC3800C3FBC8 /* LoginPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98BC85B028DCDC3800C3FBC8 /* LoginPage.storyboard */; };
 		AF0583F728DBF6A8005B79A9 /* Welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF0583F628DBF6A8005B79A9 /* Welcome.storyboard */; };
+		AF76596C28F7A90D00FDA967 /* BurgerFunctionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF76596B28F7A90D00FDA967 /* BurgerFunctionView.swift */; };
 		AF8DC6A028F0B83800CE0342 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8DC69F28F0B83800CE0342 /* HomePageViewController.swift */; };
 		AF8DC6A228F0B84F00CE0342 /* HomePage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF8DC6A128F0B84F00CE0342 /* HomePage.storyboard */; };
 		AFAA502C28DD4CCA005714DE /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAA502B28DD4CCA005714DE /* WelcomeViewController.swift */; };
@@ -67,6 +68,7 @@
 		9839F0BB28DCB60F001DE443 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		98BC85B028DCDC3800C3FBC8 /* LoginPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginPage.storyboard; sourceTree = "<group>"; };
 		AF0583F628DBF6A8005B79A9 /* Welcome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Welcome.storyboard; sourceTree = "<group>"; };
+		AF76596B28F7A90D00FDA967 /* BurgerFunctionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerFunctionView.swift; sourceTree = "<group>"; };
 		AF8DC69F28F0B83800CE0342 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		AF8DC6A128F0B84F00CE0342 /* HomePage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomePage.storyboard; sourceTree = "<group>"; };
 		AFAA502B28DD4CCA005714DE /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				B3BF0E3128DBEA5D006FE203 /* OTPScreenViewController.swift */,
 				E0BAC3E628D7C22800EF9B13 /* ViewController.swift */,
 				AFAA502B28DD4CCA005714DE /* WelcomeViewController.swift */,
+				AF76596B28F7A90D00FDA967 /* BurgerFunctionView.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -414,6 +417,7 @@
 			files = (
 				B3BF0E3228DBEA5D006FE203 /* OTPScreenViewController.swift in Sources */,
 				E0BAC3E728D7C22800EF9B13 /* ViewController.swift in Sources */,
+				AF76596C28F7A90D00FDA967 /* BurgerFunctionView.swift in Sources */,
 				AFAA502C28DD4CCA005714DE /* WelcomeViewController.swift in Sources */,
 				E0BAC3E328D7C22800EF9B13 /* AppDelegate.swift in Sources */,
 				E0C60BD228F0142A004F75F8 /* StringExtension.swift in Sources */,

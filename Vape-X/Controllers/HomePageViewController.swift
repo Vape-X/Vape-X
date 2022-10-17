@@ -20,6 +20,7 @@ class HomePageViewController: UIViewController {
     
     @IBAction func burgerMenuButton(_ sender: Any) {
         print("hi")
+        self.performSegue(withIdentifier: "menu", sender: nil)
     }
     
     @IBAction func locationButton(_ sender: Any) {
