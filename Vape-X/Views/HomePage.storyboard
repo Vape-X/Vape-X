@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Home Page View Controller-->
+        <!--Home-->
         <scene sceneID="dxV-bm-vUG">
             <objects>
                 <viewController storyboardIdentifier="HomePage" id="3b4-S5-ZoD" customClass="HomePageViewController" customModule="Vape_X" customModuleProvider="target" sceneMemberID="viewController">
@@ -217,6 +217,7 @@
                             <constraint firstItem="mJP-iC-Knb" firstAttribute="leading" secondItem="V46-K4-SBi" secondAttribute="leading" id="yjd-Cf-9aD"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" id="7To-Gg-g0W"/>
                     <connections>
                         <outlet property="searchText" destination="U2B-c0-tEF" id="toq-BH-EPd"/>
                         <outlet property="searchView" destination="2pn-U6-cNy" id="eq9-Zb-X04"/>
@@ -225,10 +226,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SoC-1G-hx2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-189.23076923076923" y="-75.355450236966817"/>
+            <point key="canvasLocation" x="740" y="-75.355450236966817"/>
         </scene>
     </scenes>
     <resources>
+        <image name="house" catalog="system" width="128" height="104"/>
         <image name="location.circle" catalog="system" width="128" height="123"/>
         <image name="magnifyingglass" catalog="system" width="128" height="117"/>
         <image name="text.chevron.right" catalog="system" width="128" height="89"/>
