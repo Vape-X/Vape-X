@@ -39,10 +39,7 @@ class LoginViewController: UIViewController {
         if let userNameText = txtfieldUsername.text, let passwordText = txtfieldPassword.text {
             if userNameText.isValidUsername() && passwordText.isValidPassword() {
                 if userNameText == mockUser && passwordText == mockPassword {
-                    let home: HomePageViewController = UIStoryboard(name: "HomePage", bundle: nil).instantiateViewController(withIdentifier: "HomePage") as! HomePageViewController
-                    home.modalTransitionStyle = .crossDissolve
-                    home.modalPresentationStyle = .fullScreen
-                    present(home, animated: true)
+                    tabBar()
                     ifCorrect()
                 }
             } else {
@@ -68,4 +65,31 @@ class LoginViewController: UIViewController {
         txtfieldUsername.text?.removeAll()
         txtfieldPassword.text?.removeAll()
     }
+    
+    func tabBar(){
+        let tabBarVC = UITabBarController()
+        
+        let vc1 = UIStoryboard(name: "HomePage", bundle: nil).instantiateViewController(withIdentifier: "HomePage") as! HomePageViewController
+        let vc2 = UIStoryboard(name: "Cart", bundle: nil).instantiateViewController(withIdentifier: "CartViewController") as! CartViewController
+        let vc3 = UIStoryboard(name: "ProfileScreen", bundle: nil).instantiateViewController(withIdentifier: "ProfileScreen") as! ProfileScreenViewController
+        
+        vc1.title = "Home"
+        vc2.title = "Cart"
+        vc3.title = "My Profile"
+        
+        tabBarVC.setViewControllers([vc1, vc2, vc3], animated: false)
+        
+        guard let items = tabBarVC.tabBar.items else {
+            return
+        }
+        
+        let images = ["house.fill", "cart.fill", "person.fill"]
+        
+        for x in 0..<items.count {
+            items[x].image = UIImage(systemName: images[x])
+        }
+        tabBarVC.modalPresentationStyle = .fullScreen
+        present(tabBarVC, animated: true)
+    }
 }
+

@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23B6405828FE56CA00FCD358 /* Cart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23B6405728FE56CA00FCD358 /* Cart.storyboard */; };
 		23CBBCC328FCFCAA006EE75C /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CBBCC228FCFCAA006EE75C /* CartViewController.swift */; };
-		23CBBCC528FCFCC7006EE75C /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CBBCC428FCFCC7006EE75C /* MyProfileViewController.swift */; };
 		30B1D85628DABFF70019B37F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30B1D85528DABFF70019B37F /* GoogleService-Info.plist */; };
 		30B1D85728DABFF70019B37F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30B1D85528DABFF70019B37F /* GoogleService-Info.plist */; };
 		30B1D85828DABFF70019B37F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30B1D85528DABFF70019B37F /* GoogleService-Info.plist */; };
@@ -64,8 +64,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23B6405728FE56CA00FCD358 /* Cart.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cart.storyboard; sourceTree = "<group>"; };
 		23CBBCC228FCFCAA006EE75C /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
-		23CBBCC428FCFCC7006EE75C /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
 		30B1D85528DABFF70019B37F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Vape-X/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		3984826028F6B4F40030CF92 /* TermsAndConditionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndConditionViewController.swift; sourceTree = "<group>"; };
 		3984826228F6B5280030CF92 /* TermsAndCondition.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TermsAndCondition.storyboard; sourceTree = "<group>"; };
@@ -134,7 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				23CBBCC228FCFCAA006EE75C /* CartViewController.swift */,
-				23CBBCC428FCFCC7006EE75C /* MyProfileViewController.swift */,
+				23B6405728FE56CA00FCD358 /* Cart.storyboard */,
 			);
 			path = TabBarExtensions;
 			sourceTree = "<group>";
@@ -385,6 +385,7 @@
 			files = (
 				B34C271128F748BD00223769 /* ProfileScreen.storyboard in Resources */,
 				98BC85B128DCDC3800C3FBC8 /* LoginPage.storyboard in Resources */,
+				23B6405828FE56CA00FCD358 /* Cart.storyboard in Resources */,
 				3984826328F6B5280030CF92 /* TermsAndCondition.storyboard in Resources */,
 				E0BAC3EF28D7C22900EF9B13 /* LaunchScreen.storyboard in Resources */,
 				30B1D85628DABFF70019B37F /* GoogleService-Info.plist in Resources */,
@@ -446,7 +447,6 @@
 			files = (
 				B3BF0E3228DBEA5D006FE203 /* OTPScreenViewController.swift in Sources */,
 				E0BAC3E728D7C22800EF9B13 /* ViewController.swift in Sources */,
-				23CBBCC528FCFCC7006EE75C /* MyProfileViewController.swift in Sources */,
 				B34C271528F757F600223769 /* ProfileScreenTableViewCell.swift in Sources */,
 				AFAA502C28DD4CCA005714DE /* WelcomeViewController.swift in Sources */,
 				B34C271328F748D600223769 /* ProfileScreenViewController.swift in Sources */,
